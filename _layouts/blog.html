@@ -5,8 +5,9 @@
 
 <body>
 
-    <main class="site-column" style="padding-top: 2em;">
-        <h1>{{ site.title }}</h1>
+    {% include blog-header.html %}
+
+    <main class="site-column">
         {{ content }}
     </main>
 
