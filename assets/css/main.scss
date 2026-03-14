@@ -10,6 +10,12 @@ a {
   color: #4183c4;
 }
 
-main {
+.site-column {
+  max-width: 42em;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+
+main.site-column {
   min-height: 60vh;
 }
