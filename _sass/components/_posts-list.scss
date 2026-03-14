@@ -1,0 +1,50 @@
+/* Reverie-style blog listing */
+
+.posts-list {
+  .post-preview {
+    margin-bottom: 1.5em;
+
+    .post-title {
+      margin-bottom: 0.25em;
+      font-size: 1.5em;
+
+      a {
+        color: _palette(fg-bold);
+        border-bottom: none;
+
+        &:hover {
+          color: _palette(highlight);
+        }
+      }
+    }
+
+    .post-meta {
+      color: _palette(fg-light);
+      font-size: 0.9em;
+      margin-bottom: 0.5em;
+      text-transform: uppercase;
+      letter-spacing: _font(letter-spacing-alt);
+    }
+
+    .post-excerpt {
+      font-size: 1em;
+      margin-bottom: 0.5em;
+    }
+
+    .post-read-more {
+      font-size: 0.9em;
+      color: _palette(highlight);
+      border-bottom: none;
+
+      &:hover {
+        color: _palette(fg-bold);
+      }
+    }
+
+    hr {
+      margin-top: 1.5em;
+      border: 0;
+      border-top: solid 1px _palette(border);
+    }
+  }
+}
