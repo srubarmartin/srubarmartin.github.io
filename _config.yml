@@ -30,6 +30,9 @@ socials:
   Facebook:
   Slack:
 
+# blog settings
+permalink: /blog/:year/:month/:day/:title/
+
 # build settings
 markdown: kramdown
 
