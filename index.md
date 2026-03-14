@@ -1,10 +1,8 @@
 ---
 layout: home
 title: Home
-landing-title: 'Hi, my name is Martin Srubar'
 description: null
 image: null
-author: null
 show_tile: false
 ---
 
