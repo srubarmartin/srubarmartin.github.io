@@ -1,41 +1,25 @@
 <!DOCTYPE html>
-<!--
-    Forty by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-  -->
-<html>
+<html lang="en">
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %} 
-    
-    
-    <!-- Main -->
-    <div id="main" class="alt">
+    {% include header.html %}
 
-      <!-- One -->
-      <section id="one">
-	<div class="inner">
-          {% for post in site.posts %}
-	  {% if post.title != 404 %}
-	  <header class="major">
-	    <h1>{{ post.title }}</h1>
-	  </header>
-	  {% if post.image %}<span class="image main"><img src="{{ site.baseurl }}/{{ post.image }}" alt="" /></span>{% endif %}
-	  {% if post.date %}<p>{{ post.date }}</p>{% endif %}
-	  <p>{{ post.content }}</p>
-	  {% endif %}
-          {% endfor %}
-	</div>
-      </section>
-
-    </div>
+    <main class="container" style="max-width: 42em;">
+        <h2>All Posts</h2>
+        {% for post in site.posts %}
+        <article class="mb-4 pb-4 border-bottom">
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            {% if post.date %}<p class="text-muted">{{ post.date | date: "%B %-d, %Y" }}</p>{% endif %}
+            {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+        </article>
+        {% endfor %}
+    </main>
 
     {% include footer.html %}
 
-  </body>
+</body>
 
 </html>
