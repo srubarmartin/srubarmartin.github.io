@@ -1,0 +1,14 @@
+---
+layout: page
+title: Blog
+description: null
+image: null
+nav-menu: true
+show_tile: false
+---
+
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
