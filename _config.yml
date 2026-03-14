@@ -31,7 +31,7 @@ socials:
   Slack:
 
 # blog settings
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 
 # build settings
 markdown: kramdown
