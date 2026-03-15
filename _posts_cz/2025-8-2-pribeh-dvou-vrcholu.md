@@ -10,7 +10,6 @@ Když jsem se ocitl dočasně bez dětí a bez manželky, využil jsem přílež
 
 Při pohledu na mapu jsem zvažoval prodloužení trasy o Smrk, druhý nejvyšší vrchol s 1 276 m, nebo možná pokračování směrem k Morávce Bebek pro delší okruh. Když jsem ale načrtl základní trasu z Ostravice na Lysou Horu a zpět přes přehradu Šance v Garminu, čísla mluvila jasně: 17 km s více než 900 m převýšení. To by určitě stačilo na středně náročný výlet.
 
------
 
 ## Ranní výstup
 
@@ -20,11 +19,11 @@ Výstup začal po asfaltové cestě vinoucí se kolem malebných dřevěných ch
 
 ![Stromy podél cesty výstupu](/blog/Images/Lysa-smrk-1-stromy.jpeg)
 
-Začala tichá hra předjíždění. Když jsem ho konečně předjel, nabídl jsem obvyklý horský pozdrav: „Dobrý den" (formální pozdrav vyhrazený pro cizí lidi). On vesele odpověděl „Ahoj" (neformální pozdrav obvykle používaný s přáteli nebo dětmi). Zaváhal jsem, zmaten. Možná to byl můj věk — je mi 41 — co vyvolalo jeho uvolněnou odpověď. Naše přeskakování pokračovalo, jak mě předjížděl během svých běžeckých úseků, já ho předjížděl na stoupáních, on získal náskok, když jsem si šel odpočinout na záchod, až jsem ho nakonec úplně ztratil z dohledu.
+Začala tichá hra předjíždění. Když jsem ho konečně předjel, nabídl jsem obvyklý horský pozdrav: „Dobrý den" (formální pozdrav vyhrazený pro cizí lidi). On vesele odpověděl „Ahoj" (neformální pozdrav obvykle používaný s přáteli nebo dětmi). Zaváhal jsem, zmaten. Možná to byl můj věk — je mi 41 — co vyvolalo jeho uvolněnou odpověď. Naše přeskakování pokračovalo, jak mě předjížděl během svých běžeckých úseků, já ho předjížděl na stoupáních, on získal náskok, když jsem šel na záchod a nakonec jsem ho úplně ztratil z dohledu.
 
 ![Přírodní horský pramen — studánka](/blog/Images/Lysa-smrk-2-studanka.jpeg)
 
-Výše jsem narazil na nádhernou studánku — přírodní horský pramen uzavřený v dřevěném přístřešku s čerstvou vodou vedenou rourkou. Pro unavené turisty tam pohodlně visely kovové hrnky. Opatrný kvůli davům jsem ji použil pouze k umytí obličeje, i když jsem se pravděpodobně nemusel obávat.
+Výše jsem narazil na nádhernou studánku — přírodní horský pramen uzavřený v kamenném přístřešku s čerstvou vodou vedenou rourkou. Pro unavené turisty tam pohodlně visely kovové hrnky. Opatrný kvůli davům jsem ji použil pouze k umytí obličeje, i když jsem se pravděpodobně nemusel obávat.
 
 ![Široká kamenitá cesta smrkovým lesem](/blog/Images/Lysa-smrk-3-cesta-v-lese.jpeg)
 
@@ -34,7 +33,6 @@ Výše jsem narazil na nádhernou studánku — přírodní horský pramen uzav�
 
 ![Vysílací věž se objevuje](/blog/Images/Lysa-smrk-5-vyhled-vysilac.jpeg)
 
------
 
 ## Úspěch na vrcholu
 
@@ -46,7 +44,6 @@ Nebyla ani 11. hodina, ale vůně z vrcholových restaurací byla lákavá po vy
 
 Na samém vrcholu jsem zahlédl svého sedmdesátiletého soupeře sestupujícího dolů. Evidentně dorazil první — nebyl to úplně scénář želvičky a zajíce, protože byl skutečně rychlý podle jakéhokoli měřítka.
 
------
 
 ## Kulturní pozorování při sestupu
 
@@ -80,7 +77,6 @@ Po dosažení malé křižovatky lesních cest se stezka mírně zlepšila. Dal�
 
 Naštěstí se objevily hojné keře lesních borůvek naložené tmavým sladkým ovocem. Několik hrstí okamžitě zlepšilo můj stav. Pokračoval jsem vzhůru, využívaje zastávky u pomníků Johna Lennona (nevysvětlitelně umístěného zde) a Jana Palacha (blíže domovu, ale proč zde?) jako vítané odpočinkové výmluvy. Konečně se stezka vyrovnala a náhle jsem stál na vrcholu Smrku v 1 276 m.
 
------
 
 ## Úvahy na vrcholu
 
