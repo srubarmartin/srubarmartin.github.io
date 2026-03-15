@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang | default: 'en' }}">
 
 {% include head.html %}
 
@@ -10,7 +10,15 @@
     <main class="site-column">
         <article>
             <h2>{{ page.title }}</h2>
-            {% if page.date %}<p class="text-muted">{{ page.date | date: "%B %-d, %Y" }}</p>{% endif %}
+            {% if page.date %}
+            <p class="text-muted">
+              {% if page.lang == "cz" %}
+                {{ page.date | date: "%-d. %-m. %Y" }}
+              {% else %}
+                {{ page.date | date: "%B %-d, %Y" }}
+              {% endif %}
+            </p>
+            {% endif %}
             {% if page.image %}<img src="{{ site.baseurl }}/{{ page.image }}" alt="" class="img-fluid mb-3" />{% endif %}
             {{ content }}
         </article>

@@ -1,0 +1,29 @@
+---
+layout: blog
+title: Blog
+description: null
+image: null
+lang: cz
+---
+
+{% for post in site.posts_cz %}
+<article class="mb-4 pb-4 border-bottom">
+  <h3>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+  </h3>
+  <p class="text-muted">
+    {{ post.date | date: "%-d. %-m. %Y" }}
+  </p>
+  {% if post.image %}
+    <a href="{{ post.url | relative_url }}">
+      <img src="{{ site.baseurl }}/{{ post.image }}" alt="" class="img-fluid mb-3" />
+    </a>
+  {% endif %}
+  {% if post.description %}
+    <p>{{ post.description }}</p>
+  {% else %}
+    <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+  {% endif %}
+  <a href="{{ post.url | relative_url }}">Číst dále &rarr;</a>
+</article>
+{% endfor %}
