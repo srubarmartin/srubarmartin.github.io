@@ -2,7 +2,7 @@
 layout: post
 title: "A Tale of Two Peaks: Lysá Hora and Smrk"
 description: "Finding myself temporarily childless and wife-less, I seized the opportunity for a moderately demanding hike in the nearby Beskydy mountains."
-image: /blog/Images/Lysa-smrk.jpeg
+image: Images/Lysa-smrk.jpeg
 ---
 
 Finding myself temporarily childless and wife-less, I seized the opportunity for a moderately demanding hike in the nearby Beskydy mountains. My initial plan was simple: climb Lysá Hora (1,323m), the tallest peak in the range. But that seemed too brief for a proper adventure.
