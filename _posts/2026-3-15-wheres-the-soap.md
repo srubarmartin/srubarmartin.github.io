@@ -19,7 +19,6 @@ Whether it's actually a cultural norm or just something one person said to anoth
 
 What does a place give you when you arrive?
 
------
 
 ## The Kettle and the Assumption
 
@@ -33,7 +32,6 @@ Then there are the small local signatures nobody mentions in the listing. In Aus
 
 These aren't grand gestures of hospitality. They're the things a culture considers so essential that not providing them would be substandard.
 
------
 
 ## The Oil and the Garlic
 
@@ -45,7 +43,6 @@ If you cook in Spain, olive oil is where everything begins. It's the first thing
 
 There's something clarifying about this. It suggests a version of hospitality that asks not "what would be a nice surprise?" but "what basics would be missing?" The answer, in Spain, starts with oil.
 
------
 
 ## The Slippers and the Boundary
 
@@ -63,7 +60,6 @@ The pyjamas follow the same logic. Your travel clothes are *outside* clothes. Th
 
 And the toothbrush? It's simply practical. You might have forgotten yours. Or simply don't need to carry yours. Or pyjamas, or slippers. It's much easier to travel light. It's efficiency dressed as generosity.
 
------
 
 ## The Line You Can't See
 
