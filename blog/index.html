@@ -15,6 +15,11 @@ show_tile: false
   <p class="text-muted">
     {{ post.date | date: "%B %-d, %Y" }}
   </p>
+  {% if post.image %}
+    <a href="{{ post.url | relative_url }}">
+      <img src="{{ site.baseurl }}/{{ post.image }}" alt="" class="img-fluid mb-3" />
+    </a>
+  {% endif %}
   {% if post.description %}
     <p>{{ post.description }}</p>
   {% else %}

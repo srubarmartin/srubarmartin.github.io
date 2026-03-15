@@ -2,6 +2,7 @@
 layout: post
 title: "Where's the Soap? What Hotel Amenities Reveal About the World"
 description: "What a missing bar of soap in Slovenia taught me about the invisible lines cultures draw around hospitality."
+image: blog/Images/amenities-on-counter.jpeg
 ---
 
 ![Amenities on counter]({{ site.baseurl }}/blog/Images/amenities-on-counter.jpeg)  
