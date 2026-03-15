@@ -9,7 +9,6 @@ Finding myself temporarily childless and wife-less, I seized the opportunity for
 
 Looking at the map, I considered extending the route to include Smrk, the second-highest peak at 1,276m, or perhaps continuing toward Morávka Bebek for a longer loop. However, when I plotted the basic route from Ostravice to Lysá Hora and back via Šance dam on my Garmin, the numbers told their own story: 17km with over 900m of elevation gain. Surely that would suffice for a moderately demanding day out.
 
------
 
 ## The Morning Ascent
 
@@ -33,7 +32,6 @@ The wide rocky road wound through a canopy of tall spruces. As elevation increas
 
 ![The transmitter tower comes into view](/blog/Images/Lysa-smrk-5-vyhled-vysilac.jpeg)
 
------
 
 ## Summit Success
 
@@ -45,7 +43,6 @@ It wasn't even 11am, but the aroma from the summit restaurants was tempting afte
 
 At the very summit, I spotted my septuagenarian competitor heading down. Clearly he'd arrived first — not quite a tortoise and hare scenario, as he was genuinely fast by any standard.
 
------
 
 ## Descending in Thought
 
@@ -63,7 +60,6 @@ The pleasant walk through beech forest, dotted with wildflower meadows, eventual
 
 Standing there, still early (around noon) with plenty of water remaining, a nagging thought emerged: why not climb Smrk as well?
 
------
 
 ## The Second Challenge
 
@@ -79,7 +75,6 @@ After reaching a small forest track intersection, the path improved slightly. An
 
 Fortunately, abundant wild blueberry bushes appeared again, laden with dark, sweet fruit. Several handfuls immediately improved my condition. I continued upward, using memorial stops for John Lennon (inexplicably placed here) and Jan Palach (closer to home, but why here?) as welcome rest excuses. Finally, the path leveled, and suddenly I stood atop Smrk at 1,276m.
 
------
 
 ## Summit Reflections
 
@@ -95,7 +90,6 @@ The water flow was strong and ice-cold. With few people around and the steep ter
 
 ![The final descent](/blog/Images/Lysa-smrk-12-sestup.jpeg)
 
------
 
 ## The Reward
 
