@@ -1,3 +1,12 @@
+{% if page.lang == "cz" %}
+<header class="border-bottom mb-4">
+	<div class="site-column py-3">
+		<a href="{{ "/blog/cz/" | relative_url }}" class="text-decoration-none text-dark">
+			<h1 class="mb-0">Blog - {{ site.title }}</h1>
+		</a>
+	</div>
+</header>
+{% else %}
 <header class="border-bottom mb-4">
 	<div class="site-column py-3">
 		<a href="{{ "/blog/" | relative_url }}" class="text-decoration-none text-dark">
@@ -5,3 +14,4 @@
 		</a>
 	</div>
 </header>
+{% endif %}

@@ -30,6 +30,12 @@ socials:
   Facebook:
   Slack:
 
+# collections
+collections:
+  posts_cz:
+    output: true
+    permalink: /blog/cz/:title/
+
 # blog settings
 permalink: /blog/:title/
 
