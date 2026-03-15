@@ -2,7 +2,7 @@
 layout: post
 title: "Příběh dvou vrcholů: Lysá Hora a Smrk"
 description: "Když jsem se ocitl dočasně bez dětí a bez manželky, využil jsem příležitosti k středně náročnému výletu do nedalekých Beskyd."
-image: Images/Lysa-smrk.jpeg
+image: blog/Images/Lysa-smrk.jpeg
 lang: cz
 ---
 
