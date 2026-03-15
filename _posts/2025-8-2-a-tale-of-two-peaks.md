@@ -75,6 +75,8 @@ The path became very steep and rocky, slowing progress considerably. A brief res
 
 After reaching a small forest track intersection, the path improved slightly. Another kilometer brought me to the saddle under "Malý Smrk" (Little Smrk) with its nice viewpoint. From there, the trail became extremely rocky and steep. Water ran low, and my body demanded more fuel.
 
+![The steep ascent to Smrk](/blog/Images/Lysa-smrk-9-na-smrk.jpeg)
+
 Fortunately, abundant wild blueberry bushes appeared again, laden with dark, sweet fruit. Several handfuls immediately improved my condition. I continued upward, using memorial stops for John Lennon (inexplicably placed here) and Jan Palach (closer to home, but why here?) as welcome rest excuses. Finally, the path leveled, and suddenly I stood atop Smrk at 1,276m.
 
 -----

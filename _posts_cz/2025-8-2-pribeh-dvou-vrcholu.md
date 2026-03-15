@@ -76,6 +76,8 @@ Stezka se stala velmi strmou a kamenitou, značně zpomalujíc postup. Krátká 
 
 Po dosažení malé křižovatky lesních cest se stezka mírně zlepšila. Další kilometr mě přivedl k sedlu pod „Malým Smrkem" s pěkným vyhlídkovým místem. Odtud se stezka stala extrémně kamenitou a strmou. Voda docházela a mé tělo požadovalo více paliva.
 
+![Strmý výstup na Smrk](/blog/Images/Lysa-smrk-9-na-smrk.jpeg)
+
 Naštěstí se objevily hojné keře lesních borůvek naložené tmavým sladkým ovocem. Několik hrstí okamžitě zlepšilo můj stav. Pokračoval jsem vzhůru, využívaje zastávky u pomníků Johna Lennona (nevysvětlitelně umístěného zde) a Jana Palacha (blíže domovu, ale proč zde?) jako vítané odpočinkové výmluvy. Konečně se stezka vyrovnala a náhle jsem stál na vrcholu Smrku v 1 276 m.
 
 -----
