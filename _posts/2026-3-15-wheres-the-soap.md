@@ -5,8 +5,6 @@ description: "What a missing bar of soap in Slovenia taught me about the invisib
 image: blog/Images/amenities-on-counter.jpeg
 ---
 
-![Amenities on counter]({{ site.baseurl }}/blog/Images/amenities-on-counter.jpeg)  
-
 We'd been driving all day when we pulled into Maribor. Like a lot of families passing through Slovenia, we were there for one night on the way to Croatia — the classic stopover. The apartment was lovely: top floor, good light, the sort of place that briefly makes you feel like a more sophisticated traveller than you are.
 
 The boys needed a shower. A full day in the back seat had done what a full day in the back seat always does. Into the bathroom they went. Out they came, still grimy, with a question: "Dad, where's the soap?"
