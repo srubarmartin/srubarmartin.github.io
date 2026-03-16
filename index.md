@@ -6,4 +6,6 @@ image: null
 show_tile: false
 ---
 
-A personal website. 
+A personal website.
+
+Blog [En]({{ "/blog/" | relative_url }}) \| [Cz]({{ "/blog/cz/" | relative_url }})
