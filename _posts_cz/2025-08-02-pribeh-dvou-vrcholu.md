@@ -18,20 +18,25 @@ První přímý vlak mě dopravil do Ostravice těsně před 9. hodinou ranní, 
 Výstup začal po asfaltové cestě vinoucí se kolem malebných dřevěných chat postavených na strmých svazích. Udržoval jsem rozumně rychlé tempo navzdory stoupání a v duchu sledoval ostatní turisty z mého vlaku. Dva muži upoutali mou pozornost: jeden padesátník, který si zvolil trochu jinou cestu, a pozoruhodně sedmdesátník následující stejnou cestu jako já. Starší pán držel moje tempo, ale občas se rozběhl.
 
 ![Stromy podél cesty výstupu](/blog/Images/Lysa-smrk-1-stromy.jpeg)
+*<center>Stromy podél cesty výstupu</center>*
 
 Začala tichá hra předjíždění. Když jsem ho konečně předjel, nabídl jsem obvyklý horský pozdrav: „Dobrý den" (formální pozdrav vyhrazený pro cizí lidi). On vesele odpověděl „Ahoj" (neformální pozdrav obvykle používaný s přáteli nebo dětmi). Zaváhal jsem, zmaten. Možná to byl můj věk — je mi 41 — co vyvolalo jeho uvolněnou odpověď. Naše přeskakování pokračovalo, jak mě předjížděl během svých běžeckých úseků, já ho předjížděl na stoupáních, on získal náskok, když jsem šel na záchod a nakonec jsem ho úplně ztratil z dohledu.
 
 ![Přírodní horský pramen — studánka](/blog/Images/Lysa-smrk-2-studanka.jpeg)
+*<center>Přírodní horský pramen — studánka</center>*
 
 Výše jsem narazil na nádhernou studánku — přírodní horský pramen uzavřený v kamenném přístřešku s čerstvou vodou vedenou rourkou. Pro unavené turisty tam pohodlně visely kovové hrnky. Opatrný kvůli davům jsem ji použil pouze k umytí obličeje, i když jsem se pravděpodobně nemusel obávat.
 
 ![Široká kamenitá cesta smrkovým lesem](/blog/Images/Lysa-smrk-3-cesta-v-lese.jpeg)
+*<center>Široká kamenitá cesta smrkovým lesem</center>*
 
 Široká kamenitá cesta se vinula pod korunami vysokých smrků. S rostoucí nadmořskou výškou stromy řídly a zkracovaly se, až se nakonec objevily nádherné výhledy na Ondřejník (890 m), Skalku (964 m) a nedaleký Smrk na druhé straně údolí. Cesta se postupně zužovala ze široké na dlážděné kamenné stezky, které se střídaly až na vrchol.
 
 ![Výhledy se otevírají při výstupu](/blog/Images/Lysa-smrk-4-vyhled.jpeg)
+*<center>Výhledy se otevírají při výstupu</center>*
 
 ![Vysílací věž se objevuje](/blog/Images/Lysa-smrk-5-vyhled-vysilac.jpeg)
+*<center>Vysílací věž se objevuje</center>*
 
 
 ## Úspěch na vrcholu
@@ -39,6 +44,7 @@ Výše jsem narazil na nádhernou studánku — přírodní horský pramen uzav�
 Po několika zastávkách na focení se objevila vysílací věž, následovaná strmými závěrečnými úseky. Najednou jsem se ocitl v určené selfie oblasti s dřevěným srdcovitým „oknem" rámujícím přehradu Šance pod námi. Panoramatické výhledy byly úchvatné — viděl jsem západokarpatské pohoří táhnoucí se až k slovenským Nízkým Tatrám. „Moře" kopců vypadalo nádherně za dokonalých podmínek: slunečná obloha s nadýchanými mraky, téměř žádný vítr (meteorologická stanice registrovala pouhých 2,7 m/s).
 
 ![Na vrcholu Lysé Hory](/blog/Images/Lysa-smrk-6-vrchol.jpeg)
+*<center>Na vrcholu Lysé Hory</center>*
 
 Nebyla ani 11. hodina, ale vůně z vrcholových restaurací byla lákavá po vyšplhání více než 900 výškových metrů. Odolal jsem, měl jsem s sebou dvě tyčinky Tatranky a těšil se na pořádný langoš nebo hovězí burger ve výborném rychlém občerstvení u nádraží. Sestup by trval asi 1,5 hodiny — ideální čas na oběd.
 
@@ -54,10 +60,12 @@ Na samém vrcholu jsem zahlédl svého sedmdesátiletého soupeře sestupující
 Lehký sestup mi dal čas k zamyšlení nad horskou etiketou. Zdravil jsem všechny „dobrý den", ale dostával jsem překvapené pohledy od mladších turistů a smíšené odpovědi formálních i neformálních pozdravů. Je to dvacet let od mé poslední túry v českých horách. Tehdy bylo pozdravit cizí lidi „ahoj" nemyslitelné, dokonce i v horách. Časy se mění — možná pod vlivem angličtiny a vracejících se expatů, kteří přijali uvolněnější přístupy k sociální interakci. Od té doby jsem používal „ahoj" a dostával „ahoj" zpět bez dalších překvapených pohledů.
 
 ![Cesta dolů](/blog/Images/Lysa-smrk-7-cesta-dolu.jpeg)
+*<center>Cesta dolů</center>*
 
 Příjemná procházka bukovým lesem posázeným loukami s divokými květinami nakonec dorazila k asfaltové silnici plné cyklistů ženoucích se dolů nebo se dřoucích nahoru. To signalizovalo můj přístup k přehradě — impozantní betonové a zemní struktuře s novým informačním centrem.
 
 ![Přehrada Šance](/blog/Images/Lysa-smrk-8-sance.jpeg)
+*<center>Přehrada Šance</center>*
 
 Stojíc tam, stále brzy (kolem poledne) s dostatkem zbývající vody, se vynořila neodolatelná myšlenka: proč nevylézt i na Smrk?
 
@@ -74,6 +82,7 @@ Stezka se stala velmi strmou a kamenitou, značně zpomalujíc postup. Krátká 
 Po dosažení malé křižovatky lesních cest se stezka mírně zlepšila. Další kilometr mě přivedl k sedlu pod „Malým Smrkem" s pěkným vyhlídkovým místem. Odtud se stezka stala extrémně kamenitou a strmou. Voda docházela a mé tělo požadovalo více paliva.
 
 ![Strmý výstup na Smrk](/blog/Images/Lysa-smrk-9-na-smrk.jpeg)
+*<center>Strmý výstup na Smrk</center>*
 
 Naštěstí se objevily hojné keře lesních borůvek naložené tmavým sladkým ovocem. Několik hrstí okamžitě zlepšilo můj stav. Pokračoval jsem vzhůru, využívaje zastávky u pomníků Johna Lennona (nevysvětlitelně umístěného zde) a Jana Palacha (blíže domovu, ale proč zde?) jako vítané odpočinkové výmluvy. Konečně se stezka vyrovnala a náhle jsem stál na vrcholu Smrku v 1 276 m.
 
@@ -83,14 +92,17 @@ Naštěstí se objevily hojné keře lesních borůvek naložené tmavým sladk�
 Vrchol obsadilo asi třicet lidí, i když výhledy byly omezené relativně novým růstem smrků. Tato oblast byla dříve holá, zničená znečištěním a kyselými dešti během těžkého průmyslového období regionu. Pamatuji si, jak jsem jako dítě viděl mrtvé smrkové kmeny — docela strašidelné. Nejsem si jistý, proč sousední hory unikly podobné škodě. Oblast vrcholu je nyní přírodní rezervací se zdravými dvacetiletými smrky.
 
 ![Výhled z vrcholu Smrku](/blog/Images/Lysa-smrk-10-vyhled-smrk.jpeg)
+*<center>Výhled z vrcholu Smrku</center>*
 
 Po focení a napití jsem se vydal zpět k sedlu, pak jsem vzal červeně značenou stezku dolů do Ostravice. Hlavu mi naplňovaly sny o langoši A burgeru, plus dobré nealkoholické pivo a voda. Pak se téměř magicky objevila další malebná studánka — zasazená do strmého svahu obklopená kapradím a skalami jako z pohádky.
 
 ![Pohádková studánka při sestupu](/blog/Images/Lysa-smrk-11-studanka.jpeg)
+*<center>Pohádková studánka při sestupu</center>*
 
 Proud vody byl silný a ledově studený. S málo lidmi kolem a strmým terénem činícím kontaminaci nepravděpodobnou jsem se rozhodl napít několik hrstí po osvěžení obličeje, i když jsem se vyhnul poskytnutým kovovým hrnkům. Osvěžen jsem pokračoval dolů klikatící se červenou stezkou.
 
 ![Závěrečný sestup](/blog/Images/Lysa-smrk-12-sestup.jpeg)
+*<center>Závěrečný sestup</center>*
 
 -----
 
@@ -101,5 +113,6 @@ Spatřil jsem rodinu, která šla přímou cestou dolů velmi strmým kamenitým
 Poznámka pro sebe: Příště vzít více jídla a vody nebo zvolit kratší túry. Zachráněn dary přírody a téměř magickou studánkou. Lituji, že jsem vylezl na Smrk? Rozhodně ne.
 
 ![Zasloužený langoš a burger](/blog/Images/Lysa-smrk-13-burger-langos.jpeg)
+*<center>Zasloužený langoš a burger</center>*
 
 A ano, dal jsem si langoš i hovězí burger, plus dvě nealkoholická piva a láhev vody — zasloužené po chůzi více než 28 km s více než 2 200 výškovými metry pouze na dvou Tatrankách.

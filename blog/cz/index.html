@@ -6,7 +6,8 @@ image: null
 lang: cz
 ---
 
-{% for post in site.posts_cz %}
+{% assign sorted_posts = site.posts_cz | sort: "date" | reverse %}
+{% for post in sorted_posts %}
 <article class="mb-4 pb-4 border-bottom">
   <h3>
     <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
