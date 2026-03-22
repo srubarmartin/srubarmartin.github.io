@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Z Mostů do Ostravice: Hřebenová túra krajinou vzpomínek"
-description: "Přechod z Mostů u Jablunkova do Ostravice přes hřeben Beskyd — propojení dvou železničních tratí a znovuobjevení dětských vzpomínek."
+title: "Z Mostů na Ostravici: Hřebenová túra krajinou vzpomínek"
+description: "Přechod z Mostů u Jablunkova na Ostravice přes hřeben Beskyd — propojení dvou železničních tratí a znovuobjevení dětských vzpomínek."
 image: blog/Images/mosty-to-ostravice.jpg
 lang: cz
 date: 2025-08-09
