@@ -6,7 +6,7 @@ image: blog/Images/Lysa-smrk.jpeg
 lang: cz
 ---
 
-Když jsem se ocitl dočasně bez dětí a bez manželky, využil jsem příležitosti k středně náročnému výletu do nedalekých Beskyd. Můj původní plán byl jednoduchý: vylézt na Lysou Horu (1 323 m), nejvyšší vrchol pohoří. Ale to se mi zdálo příliš krátké na pořádné dobrodružství.
+Když jsem se ocitl dočasně bez dětí a bez manželky, využil jsem této příležitosti k středně náročnému výletu do nedalekých Beskyd. Můj původní plán byl jednoduchý: vylézt na Lysou Horu (1 323 m), nejvyšší vrchol pohoří. Ale to se mi zdálo příliš krátké na pořádné dobrodružství.
 
 Při pohledu na mapu jsem zvažoval prodloužení trasy o Smrk, druhý nejvyšší vrchol s 1 276 m, nebo možná pokračování směrem k Morávce Bebek pro delší okruh. Když jsem ale načrtl základní trasu z Ostravice na Lysou Horu a zpět přes přehradu Šance v Garminu, čísla mluvila jasně: 17 km s více než 900 m převýšení. To by určitě stačilo na středně náročný výlet.
 
@@ -20,12 +20,12 @@ Výstup začal po asfaltové cestě vinoucí se kolem malebných dřevěných ch
 ![Stromy podél cesty výstupu](/blog/Images/Lysa-smrk-1-stromy.jpeg)
 *<center>Stromy podél cesty výstupu</center>*
 
-Začala tichá hra předjíždění. Když jsem ho konečně předjel, nabídl jsem obvyklý horský pozdrav: „Dobrý den" (formální pozdrav vyhrazený pro cizí lidi). On vesele odpověděl „Ahoj" (neformální pozdrav obvykle používaný s přáteli nebo dětmi). Zaváhal jsem, zmaten. Možná to byl můj věk — je mi 41 — co vyvolalo jeho uvolněnou odpověď. Naše přeskakování pokračovalo, jak mě předjížděl během svých běžeckých úseků, já ho předjížděl na stoupáních, on získal náskok, když jsem šel na záchod a nakonec jsem ho úplně ztratil z dohledu.
+Začala tichá hra předjíždění. Když jsem ho konečně předjel, nabídl jsem obvyklý horský pozdrav: „Dobrý den" (formální pozdrav vyhrazený pro cizí lidi). On vesele odpověděl „Ahoj" (neformální pozdrav obvykle používaný s přáteli nebo dětmi). Zaváhal jsem, zmaten. Možná to byl můj věk — je mi 41 — co vyvolalo jeho neformální odpověď. Naše předbíhání pokračovalo, on mě předběhnul během svých běžeckých úseků, já ho předešel na stoupáních, on získal náskok, když jsem šel na záchod a nakonec jsem ho úplně ztratil z dohledu.
 
 ![Přírodní horský pramen — studánka](/blog/Images/Lysa-smrk-2-studanka.jpeg)
 *<center>Přírodní horský pramen — studánka</center>*
 
-Výše jsem narazil na nádhernou studánku — přírodní horský pramen uzavřený v kamenném přístřešku s čerstvou vodou vedenou rourkou. Pro unavené turisty tam pohodlně visely kovové hrnky. Opatrný kvůli davům jsem ji použil pouze k umytí obličeje, i když jsem se pravděpodobně nemusel obávat.
+Výše jsem narazil na nádhernou studánku — přírodní horský pramen uzavřený v kamenném přístřešku s čerstvou vodou vedenou rourkou. Pro unavené turisty tam pohodlně visely kovové hrnky. Kvůli často přítomným davům jsem vodu použil pouze k umytí obličeje, i když jsem asi byl až moc opatrný.
 
 ![Široká kamenitá cesta smrkovým lesem](/blog/Images/Lysa-smrk-3-cesta-v-lese.jpeg)
 *<center>Široká kamenitá cesta smrkovým lesem</center>*
@@ -39,21 +39,21 @@ Výše jsem narazil na nádhernou studánku — přírodní horský pramen uzav�
 *<center>Vysílací věž se objevuje</center>*
 
 
-## Úspěch na vrcholu
+## Zdolání vrcholu
 
-Po několika zastávkách na focení se objevila vysílací věž, následovaná strmými závěrečnými úseky. Najednou jsem se ocitl v určené selfie oblasti s dřevěným srdcovitým „oknem" rámujícím přehradu Šance pod námi. Panoramatické výhledy byly úchvatné — viděl jsem západokarpatské pohoří táhnoucí se až k slovenským Nízkým Tatrám. „Moře" kopců vypadalo nádherně za dokonalých podmínek: slunečná obloha s nadýchanými mraky, téměř žádný vítr (meteorologická stanice registrovala pouhých 2,7 m/s).
+Po několika zastávkách na focení se objevila vysílací věž, následovaná strmým závěrečným úsekem. Najednou jsem se ocitl pod vrcholem v oblasti s dřevěným srdcovitým „oknem" rámujícím přehradu Šance pod námi, které se má používat pro selfíky. Panoramatické výhledy byly úchvatné — viděl jsem západokarpatské pohoří táhnoucí se až k slovenským Nízkým Tatrám. „Moře" kopců vypadalo nádherně za dokonalých podmínek: slunečná obloha s nadýchanými mraky, téměř žádný vítr (meteorologická stanice registrovala pouhých 2,7 m/s).
 
 ![Na vrcholu Lysé Hory](/blog/Images/Lysa-smrk-6-vrchol.jpeg)
 *<center>Na vrcholu Lysé Hory</center>*
 
-Nebyla ani 11. hodina, ale vůně z vrcholových restaurací byla lákavá po vyšplhání více než 900 výškových metrů. Odolal jsem, měl jsem s sebou dvě tyčinky Tatranky a těšil se na pořádný langoš nebo hovězí burger ve výborném rychlém občerstvení u nádraží. Sestup by trval asi 1,5 hodiny — ideální čas na oběd.
+Nebyla ani 11. hodina, ale vůně z vrcholových restaurací byla lákavá po vyšplhání více než 900 výškových metrů. Odolal jsem, měl jsem s sebou dvě Tatranky a těšil se na pořádný langoš nebo hovězí burger ve výborném rychlém občerstvení u nádraží. Sestup by trval asi 1,5 hodiny — ideální čas na oběd.
 
-Na samém vrcholu jsem zahlédl svého sedmdesátiletého soupeře sestupujícího dolů. Evidentně dorazil první — nebyl to úplně scénář želvičky a zajíce, protože byl skutečně rychlý podle jakéhokoli měřítka.
+Na samém vrcholu jsem zahlédl svého sedmdesátiletého soupeře sestupujícího dolů. Evidentně dorazil první — nebyl to úplně scénář želvičky a zajíce, protože byl on byl skutečně rychlý podle jakýchkoliv měřítek.
 
 
-## Kulturní pozorování při sestupu
+## Zdravení při sestupu
 
-Žlutě značený sestup směrem k přehradě Šance šel hladce. Ochutnal jsem lahodné lesní borůvky — jejich koncentrovaná chuť byla daleko lepší než u pěstovaných odrůd — a dokonce jsem běžel některé mírnější úseky, dokud mě křeče v nohou nedonutily k lehké chůzi. Krátký odpočinek a jedna Tatranka obnovily mou energii.
+Žlutě značený sestup směrem k přehradě Šance šel hladce. Ochutnal jsem lahodné lesní borůvky — jejich koncentrovaná chuť byla daleko lepší než u pěstovaných odrůd — a dokonce jsem seběhnul některé mírnější úseky, dokud mě křeče v nohou nedonutily k lehké chůzi. Krátký odpočinek a jedna Tatranka obnovily mou energii.
 
 Úzká stezka se vinula řídkými nízkými smrky, pak vyššími a hustšími, než náhle přešla do nádherného lesa evropských buků. Předpokládám, že byly vysázeny při stavbě přehrady, protože buky lépe stabilizují svahy než smrky.
 
@@ -62,22 +62,22 @@ Lehký sestup mi dal čas k zamyšlení nad horskou etiketou. Zdravil jsem všec
 ![Cesta dolů](/blog/Images/Lysa-smrk-7-cesta-dolu.jpeg)
 *<center>Cesta dolů</center>*
 
-Příjemná procházka bukovým lesem posázeným loukami s divokými květinami nakonec dorazila k asfaltové silnici plné cyklistů ženoucích se dolů nebo se dřoucích nahoru. To signalizovalo můj přístup k přehradě — impozantní betonové a zemní struktuře s novým informačním centrem.
+Příjemná procházka bukovým lesem s několika loukami s divokými květinami nakonec skončilan na asfaltové silnici plné cyklistů ženoucích se dolů nebo se dřoucích nahoru. To signalizovalo můj přístup k přehradě — impozantní betonové a zemní stavbě s novým informačním centrem.
 
 ![Přehrada Šance](/blog/Images/Lysa-smrk-8-sance.jpeg)
 *<center>Přehrada Šance</center>*
 
-Stojíc tam, stále brzy (kolem poledne) s dostatkem zbývající vody, se vynořila neodolatelná myšlenka: proč nevylézt i na Smrk?
+Stál jsem tam a rozmýšlel jsem se. Bylo stále brzy (kolem poledne) a měl jsem dostatek vody. Vynořila neodolatelná myšlenka: proč nevylézt i na Smrk?
 
 -----
 
 ## Druhá výzva
 
-Po přejití přehrady nebyl počáteční výstup příliš strmý, i když mé nohy se cítily trochu nejistě. Stezka se vinula vedle rušné silnice na skalnatých březích přehradního jezera, než se stočila zpět do smrkového lesa. Gradient se zvýšil, ale zvýšily se i lesní borůvky — svah vypadal modře jejich hojností.
+Po přejití přehrady nebyl počáteční výstup příliš strmý, i když mé nohy se cítily trochu nejistě. Stezka se vinula vedle rušné silnice na skalnatých březích přehradního jezera, než se stočila zpět do smrkového lesa. Gradient se zvýšil, ale zvýšil se i počet lesních borůvek — svah s borůvčím byl celý modrý.
 
-S žaludkem požadujícím jídlo jsem odolával snědení své poslední Tatranky, vědom si, že mě čeká značné převýšení. Z přehrady na přibližně 500 m jsem potřeboval dosáhnout 1 276 m.
+S žaludkem požadujícím jídlo jsem odolával snězení své poslední Tatranky. Čekalo mě značné převýšení. Z přehrady na přibližně 500 m n. m. jsem potřeboval dosáhnout 1 276 m n. m.
 
-Stezka se stala velmi strmou a kamenitou, značně zpomalujíc postup. Krátká úleva na rovné asfaltové cestě ustoupila dalšímu trestajícímu kamennému výstupu. Konečně podlehnutím hladu jsem snědl poslední Tatranku, což marginálně pomohlo s neúprosným stoupáním.
+Stezka se stala velmi strmou a kamenitou, značně zpomalujíc postup. Krátká úleva na rovné asfaltové cestě ustoupila dalšímu kamenitému výstupu. Konečně jsem podlehl hladu a snědl poslední Tatranku, což trochu pomohlo s neúprosným stoupáním.
 
 Po dosažení malé křižovatky lesních cest se stezka mírně zlepšila. Další kilometr mě přivedl k sedlu pod „Malým Smrkem" s pěkným vyhlídkovým místem. Odtud se stezka stala extrémně kamenitou a strmou. Voda docházela a mé tělo požadovalo více paliva.
 
