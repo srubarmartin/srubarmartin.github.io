@@ -124,16 +124,25 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 8px;
     padding: 8px 16px;
     background: #161b22;
     border-bottom: 1px solid #30363d;
     position: sticky;
     top: 0;
-    z-index: 100;
+    z-index: 1000;
   }
-  .topbar-left { display: flex; align-items: center; gap: 12px; }
-  .topbar-right { display: flex; align-items: center; gap: 8px; }
-  .topbar .repo-name { font-weight: 600; color: #58a6ff; font-size: 14px; }
+  .topbar-left { display: flex; align-items: center; gap: 12px; min-width: 0; }
+  .topbar-right { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+  .topbar .repo-name {
+    font-weight: 600;
+    color: #58a6ff;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
   .topbar .branch-name {
     font-size: 12px;
     padding: 2px 8px;
@@ -141,6 +150,18 @@
     border: 1px solid #30363d;
     border-radius: 12px;
     color: #8b949e;
+    white-space: nowrap;
+  }
+
+  @media (max-width: 480px) {
+    .topbar { padding: 8px 10px; }
+    .topbar-left { gap: 6px; }
+    .topbar .repo-name { font-size: 12px; max-width: 140px; }
+    .btn { padding: 6px 10px; font-size: 12px; }
+    .browser-actions { flex-direction: column; gap: 8px; align-items: flex-start; }
+    .editor-content { padding: 0 8px; margin: 8px auto; }
+    .settings-card { padding: 20px; }
+    .modal { padding: 16px; }
   }
 
   /* --- File Browser --- */
@@ -232,6 +253,8 @@
   }
   .editor-content .EasyMDEContainer {
     background: #0d1117;
+    position: relative;
+    z-index: 1;
   }
   .editor-content .EasyMDEContainer .CodeMirror {
     background: #0d1117;
@@ -273,6 +296,11 @@
     overflow-x: auto;
   }
   .editor-content .editor-statusbar { color: #484f58; }
+
+  /* Prevent EasyMDE fullscreen from covering topbar */
+  .EasyMDEContainer.CodeMirror-fullscreen,
+  .editor-toolbar.fullscreen,
+  .CodeMirror-fullscreen { z-index: 500 !important; }
 
   /* --- Commit Modal --- */
   .modal-overlay {
