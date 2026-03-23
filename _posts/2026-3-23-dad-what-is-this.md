@@ -7,9 +7,6 @@ image: blog/Images/Chargrilling-Portuguese-man-looking-over-the-sea.jpeg
 
 Because my wife was attending a conference in the city, the boys and I were left to our own devices for most of the week. Our days usually began at a hotel breakfast buffet in one of the outer suburbs of Lisbon.
 
-![Lisbon sign above Parque](/blog/Images/Lisbon-sign-above-Parque.jpeg)
-*<center>Lisbon sign above Parque</center>*
-
 Among the usual spread and all sorts of interesting Mediterranean-like items, two sat unconspicuously in the middle of the cold cuts and cheese section, undescribed. One was white and wobbly like silken tofu. The other remotely resembled quince cheese. Both were presented in massive, generous slabs. There were descriptions for baked beans, bacon, sautéed vegetables — but not these two. The quince thing turned out to be exactly that: a solid paste of quince, cut like a soft cheese. The tofu-like thing was *queijo fresco* — very mild, good with olive oil and salt or with the quince.
 
 In another country, this might have come with some fanfare — an "artisanal" label, perhaps a rustic wooden board. Here it was just a non-descript buffet item, sitting between the ham and the bread. This was something I'd been noticing in Lisbon: quality stands on its own. It doesn't need narration.
@@ -26,9 +23,6 @@ What they noticed was the pond.
 
 It sat beside the Navy building, facing the water, and it was not in good shape. Green algae covered the surface. Reeds grew at the edges. Clumps of grass and reed had broken free and were floating in the green, little islands drifting with no particular destination. The boys stopped.
 
-![Lisbon from ferry](/blog/Images/Lisbon-from-ferry.jpeg)
-*<center>Lisbon from ferry</center>*
-
 The wind was pushing the grass islands across the pond, slowly, and where they moved they left dark trails in the algae — clean lines opening behind them like wakes. My five-year-old stood at the edge and watched one island cross from the reeds on the near side almost to the far bank. His brother tracked a different one. They stood there for ten minutes, maybe longer. I stood with them.
 
 The historic palaces were nearby. We did not go to the historic palaces.
@@ -39,6 +33,9 @@ The water underneath the algae, where the trails opened, was clean.
 ## The Ferry
 
 We took the ferry to Cacilhas. The terminal was busy with commuters crossing the Tagus, and we joined them.
+
+![Lisbon from ferry](/blog/Images/Lisbon-from-ferry.jpeg)
+*<center>Lisbon from ferry</center>*
 
 From the water, Lisbon rearranged itself behind us. The city rose up the hills, terracotta and white and pale yellow, and above it all the bridge. It looked like the Golden Gate — same colour, same international orange, same suspension-bridge elegance. The resemblance isn't coincidence. The Ponte 25 de Abril was built by the American Bridge Company, the same firm that built the Bay Bridge in San Francisco. It's not that Portugal copied California. It's that Portugal hired California.
 
@@ -53,6 +50,9 @@ The boys spotted the masts of a "pirate ship" from the ferry. So the plan became
 
 The pirate ship turned out to be sitting in a dry dock beside a real submarine, and you could go inside both of them. A paradise for a five-year-old and an eleven-year-old.
 
+![The "pirate ship"](/blog/Images/The-pirate-ship.jpeg)
+*<center>The "pirate ship"</center>*
+
 The ship was really a frigate — the Dom Fernando II e Glória, a wooden-hulled fifty-gun sailing ship, built in 1843 from Indian teak at a shipyard in Daman, then a Portuguese colony. She was the last sailing warship the Portuguese Navy ever built, and the last ship to make the *Carreira da Índia* — the India Run — connecting Lisbon to Goa since the sixteenth century. She sailed a hundred thousand nautical miles, then became a training school, then a home for orphaned boys, then caught fire in 1963 and lay half-buried in the mud of the Tagus for twenty-nine years before someone brought her back.
 
 The submarine was the NRP Barracuda, diesel-electric, French-built, commissioned in 1968. She served forty-two years and covered the equivalent of thirty-six circumnavigations. Crew of fifty-four, thirty-five beds — they hot-bunked in shifts. Twelve thousand litres of water aboard, all for drinking. Nobody bathed.
@@ -65,9 +65,6 @@ They climbed through the submarine's hatches and pressed their faces against the
 *<center>Submarine in dry dock</center>*
 
 I tried to hold two thoughts at the same time. The first was that these were extraordinary machines — a frigate built from Indian trees for the route to India, a submarine that spent thirty-five thousand hours underwater. The second was that they were in a museum. They were not docked. They were displayed. The submarine was a serious boat, capable and real, but it was not a nuclear submarine. It was not the top-of-the-world kind. The frigate was the last of her line, the one that came just before steam made her obsolete. Everything in the dry dock was worthy of respect and also, quietly, a monument to the moment when Portugal's reach exceeded what it could sustain.
-
-![The "pirate ship"](/blog/Images/The-pirate-ship.jpeg)
-*<center>The "pirate ship"</center>*
 
 The boys saw adventure. I saw a country visiting its past.
 
