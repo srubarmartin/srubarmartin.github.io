@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Editor</title>
+<link rel="stylesheet" href="https://unpkg.com/easymde/dist/easymde.min.css">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
+    min-height: 100vh;
+  }
+
+  /* --- Screens --- */
+  .screen { display: none; }
+  .screen.active { display: flex; }
+
+  /* --- Token Entry --- */
+  #token-screen {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 16px;
+  }
+  #token-screen input {
+    width: 400px;
+    max-width: 90vw;
+    padding: 12px 16px;
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    color: #c9d1d9;
+    font-size: 14px;
+    font-family: monospace;
+  }
+  #token-screen input:focus { outline: none; border-color: #58a6ff; }
+
+  /* --- Settings --- */
+  #settings-screen {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    gap: 12px;
+  }
+  .settings-card {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    padding: 32px;
+    width: 480px;
+    max-width: 90vw;
+  }
+  .settings-card h2 {
+    color: #f0f6fc;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .settings-card label {
+    display: block;
+    font-size: 13px;
+    color: #8b949e;
+    margin-bottom: 4px;
+    margin-top: 14px;
+  }
+  .settings-card label:first-of-type { margin-top: 0; }
+  .settings-card input, .settings-card select {
+    width: 100%;
+    padding: 8px 12px;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    color: #c9d1d9;
+    font-size: 14px;
+  }
+  .settings-card input:focus, .settings-card select:focus {
+    outline: none;
+    border-color: #58a6ff;
+  }
+
+  /* --- Buttons --- */
+  .btn {
+    padding: 8px 16px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    background: #21262d;
+    color: #c9d1d9;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  .btn:hover { background: #30363d; }
+  .btn-primary {
+    background: #238636;
+    border-color: #2ea043;
+    color: #fff;
+  }
+  .btn-primary:hover { background: #2ea043; }
+  .btn-danger {
+    background: #da3633;
+    border-color: #f85149;
+    color: #fff;
+  }
+  .btn-danger:hover { background: #f85149; }
+  .btn-group { display: flex; gap: 8px; margin-top: 20px; }
+
+  /* --- Status messages --- */
+  .status {
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 13px;
+    margin-top: 8px;
+  }
+  .status-ok { background: #0d2818; border: 1px solid #238636; color: #3fb950; }
+  .status-err { background: #2d1117; border: 1px solid #da3633; color: #f85149; }
+
+  /* --- Top bar --- */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 16px;
+    background: #161b22;
+    border-bottom: 1px solid #30363d;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .topbar-left { display: flex; align-items: center; gap: 12px; }
+  .topbar-right { display: flex; align-items: center; gap: 8px; }
+  .topbar .repo-name { font-weight: 600; color: #58a6ff; font-size: 14px; }
+  .topbar .branch-name {
+    font-size: 12px;
+    padding: 2px 8px;
+    background: #1f2937;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    color: #8b949e;
+  }
+
+  /* --- File Browser --- */
+  #browser-screen {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .browser-content {
+    max-width: 900px;
+    width: 100%;
+    margin: 24px auto;
+    padding: 0 16px;
+  }
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+  }
+  .breadcrumb a {
+    color: #58a6ff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb .sep { color: #484f58; }
+
+  .file-list {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .file-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    border-bottom: 1px solid #21262d;
+    cursor: pointer;
+    transition: background 0.1s;
+    gap: 10px;
+    font-size: 14px;
+  }
+  .file-item:last-child { border-bottom: none; }
+  .file-item:hover { background: #1c2128; }
+  .file-icon { width: 20px; text-align: center; color: #8b949e; font-size: 16px; }
+  .file-name { color: #58a6ff; }
+  .file-item.dir .file-name { color: #58a6ff; font-weight: 500; }
+
+  .browser-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .empty-msg {
+    padding: 40px;
+    text-align: center;
+    color: #484f58;
+    font-size: 14px;
+  }
+
+  /* --- Editor --- */
+  #editor-screen {
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  .editor-content {
+    max-width: 1100px;
+    width: 100%;
+    margin: 16px auto;
+    padding: 0 16px;
+    flex: 1;
+  }
+  .editor-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  .editor-filename {
+    font-size: 16px;
+    font-weight: 600;
+    color: #f0f6fc;
+    font-family: monospace;
+  }
+  .editor-content .EasyMDEContainer {
+    background: #0d1117;
+  }
+  .editor-content .EasyMDEContainer .CodeMirror {
+    background: #0d1117;
+    color: #c9d1d9;
+    border-color: #30363d;
+  }
+  .editor-content .editor-toolbar {
+    background: #161b22;
+    border-color: #30363d;
+  }
+  .editor-content .editor-toolbar button {
+    color: #8b949e !important;
+  }
+  .editor-content .editor-toolbar button:hover,
+  .editor-content .editor-toolbar button.active {
+    background: #30363d;
+    color: #c9d1d9 !important;
+  }
+  .editor-content .editor-preview {
+    background: #0d1117;
+    color: #c9d1d9;
+  }
+  .editor-content .editor-preview h1,
+  .editor-content .editor-preview h2,
+  .editor-content .editor-preview h3 {
+    color: #f0f6fc;
+    border-bottom-color: #30363d;
+  }
+  .editor-content .editor-preview a { color: #58a6ff; }
+  .editor-content .editor-preview code {
+    background: #161b22;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .editor-content .editor-preview pre {
+    background: #161b22;
+    padding: 12px;
+    border-radius: 6px;
+    overflow-x: auto;
+  }
+  .editor-content .editor-statusbar { color: #484f58; }
+
+  /* --- Commit Modal --- */
+  .modal-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.6);
+    z-index: 200;
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-overlay.active { display: flex; }
+  .modal {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 24px;
+    width: 560px;
+    max-width: 90vw;
+    max-height: 80vh;
+    overflow-y: auto;
+  }
+  .modal h3 {
+    color: #f0f6fc;
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+  .modal label {
+    display: block;
+    font-size: 13px;
+    color: #8b949e;
+    margin-bottom: 4px;
+    margin-top: 12px;
+  }
+  .modal input, .modal textarea {
+    width: 100%;
+    padding: 8px 12px;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    color: #c9d1d9;
+    font-size: 14px;
+    font-family: inherit;
+  }
+  .modal textarea { min-height: 60px; resize: vertical; }
+  .modal input:focus, .modal textarea:focus {
+    outline: none;
+    border-color: #58a6ff;
+  }
+
+  /* --- Diff view --- */
+  .diff-container {
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 12px;
+    margin-top: 12px;
+    max-height: 300px;
+    overflow: auto;
+    font-family: monospace;
+    font-size: 12px;
+    line-height: 1.6;
+    white-space: pre-wrap;
+    word-break: break-all;
+  }
+  .diff-add { color: #3fb950; background: #0d2818; }
+  .diff-del { color: #f85149; background: #2d1117; }
+  .diff-hdr { color: #79c0ff; font-weight: bold; }
+
+  /* --- New File Modal --- */
+  #new-file-modal label:first-of-type { margin-top: 0; }
+
+  /* --- Loading spinner --- */
+  .spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #30363d;
+    border-top-color: #58a6ff;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+    vertical-align: middle;
+    margin-right: 6px;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+
+  /* --- Branch selector --- */
+  .branch-select {
+    padding: 4px 8px;
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    color: #c9d1d9;
+    font-size: 12px;
+  }
+  .branch-select:focus { outline: none; border-color: #58a6ff; }
+</style>
+</head>
+<body>
+
+<!-- ============ TOKEN ENTRY SCREEN ============ -->
+<div id="token-screen" class="screen active">
+  <input type="password" id="token-input" placeholder="Enter access token" autocomplete="off">
+</div>
+
+<!-- ============ SETTINGS SCREEN ============ -->
+<div id="settings-screen" class="screen">
+  <div class="settings-card">
+    <h2>Configuration</h2>
+    <label for="cfg-pat">GitHub Personal Access Token</label>
+    <input type="password" id="cfg-pat" placeholder="ghp_...">
+    <label for="cfg-owner">Repository Owner</label>
+    <input type="text" id="cfg-owner" placeholder="username">
+    <label for="cfg-repo">Repository Name</label>
+    <input type="text" id="cfg-repo" placeholder="my-repo">
+    <label for="cfg-branch">Default Branch</label>
+    <input type="text" id="cfg-branch" placeholder="main">
+    <div id="settings-status"></div>
+    <div class="btn-group">
+      <button class="btn btn-primary" id="btn-save-settings">Save &amp; Connect</button>
+      <button class="btn" id="btn-test-connection">Test Connection</button>
+      <button class="btn btn-danger" id="btn-logout">Logout</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ FILE BROWSER SCREEN ============ -->
+<div id="browser-screen" class="screen">
+  <div class="topbar">
+    <div class="topbar-left">
+      <span class="repo-name" id="tb-repo"></span>
+      <select class="branch-select" id="tb-branch"></select>
+    </div>
+    <div class="topbar-right">
+      <button class="btn" id="btn-settings">Settings</button>
+      <button class="btn btn-danger" id="btn-logout2">Logout</button>
+    </div>
+  </div>
+  <div class="browser-content">
+    <div class="browser-actions">
+      <div class="breadcrumb" id="breadcrumb"></div>
+      <button class="btn btn-primary" id="btn-new-file">New File</button>
+    </div>
+    <div class="file-list" id="file-list"></div>
+  </div>
+</div>
+
+<!-- ============ EDITOR SCREEN ============ -->
+<div id="editor-screen" class="screen">
+  <div class="topbar">
+    <div class="topbar-left">
+      <span class="repo-name" id="tb-repo2"></span>
+      <span class="branch-name" id="tb-branch2"></span>
+    </div>
+    <div class="topbar-right">
+      <button class="btn" id="btn-back-browser">Back</button>
+      <button class="btn btn-primary" id="btn-commit">Commit</button>
+    </div>
+  </div>
+  <div class="editor-content">
+    <div class="editor-header">
+      <span class="editor-filename" id="editor-filename"></span>
+    </div>
+    <textarea id="md-editor"></textarea>
+  </div>
+</div>
+
+<!-- ============ COMMIT MODAL ============ -->
+<div class="modal-overlay" id="commit-modal">
+  <div class="modal">
+    <h3>Commit Changes</h3>
+    <label for="commit-msg">Commit message</label>
+    <input type="text" id="commit-msg" placeholder="Update file">
+    <label for="commit-desc">Description (optional)</label>
+    <textarea id="commit-desc" placeholder="Extended description..."></textarea>
+    <label>Changes</label>
+    <div class="diff-container" id="diff-view"></div>
+    <div id="commit-status"></div>
+    <div class="btn-group">
+      <button class="btn btn-primary" id="btn-do-commit">Commit</button>
+      <button class="btn" id="btn-cancel-commit">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<!-- ============ NEW FILE MODAL ============ -->
+<div class="modal-overlay" id="new-file-modal">
+  <div class="modal">
+    <h3>Create New File</h3>
+    <label for="new-file-path">File path</label>
+    <input type="text" id="new-file-path" placeholder="_posts/2026-01-01-my-post.md">
+    <label for="new-file-content">Initial content (optional)</label>
+    <textarea id="new-file-content" placeholder="---&#10;title: My Post&#10;---"></textarea>
+    <div id="new-file-status"></div>
+    <div class="btn-group">
+      <button class="btn btn-primary" id="btn-create-file">Create</button>
+      <button class="btn" id="btn-cancel-new-file">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<script src="https://unpkg.com/easymde/dist/easymde.min.js"></script>
+<script>
+(function() {
+  'use strict';
+
+  // ==================== CRYPTO UTILITIES ====================
+
+  const SALT = new Uint8Array([83,82,85,66,65,82,69,68,73,84,79,82,50,48,50,54]);
+
+  async function deriveKey(token) {
+    const enc = new TextEncoder();
+    const keyMaterial = await crypto.subtle.importKey(
+      'raw', enc.encode(token), 'PBKDF2', false, ['deriveKey']
+    );
+    return crypto.subtle.deriveKey(
+      { name: 'PBKDF2', salt: SALT, iterations: 310000, hash: 'SHA-256' },
+      keyMaterial,
+      { name: 'AES-GCM', length: 256 },
+      false,
+      ['encrypt', 'decrypt']
+    );
+  }
+
+  async function encryptStr(plaintext, key) {
+    const iv = crypto.getRandomValues(new Uint8Array(12));
+    const enc = new TextEncoder();
+    const ct = await crypto.subtle.encrypt(
+      { name: 'AES-GCM', iv }, key, enc.encode(plaintext)
+    );
+    const buf = new Uint8Array(iv.length + ct.byteLength);
+    buf.set(iv);
+    buf.set(new Uint8Array(ct), iv.length);
+    return btoa(String.fromCharCode(...buf));
+  }
+
+  async function decryptStr(b64, key) {
+    const raw = Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+    const iv = raw.slice(0, 12);
+    const ct = raw.slice(12);
+    const dec = await crypto.subtle.decrypt({ name: 'AES-GCM', iv }, key, ct);
+    return new TextDecoder().decode(dec);
+  }
+
+  // ==================== STATE ====================
+
+  let cryptoKey = null;
+  let appToken = null;
+  let config = { pat: '', owner: '', repo: '', branch: 'main' };
+  let currentPath = '';
+  let currentFile = null;  // { path, sha, content }
+  let easyMDE = null;
+
+  // ==================== DOM HELPERS ====================
+
+  const $ = id => document.getElementById(id);
+  const screens = ['token-screen', 'settings-screen', 'browser-screen', 'editor-screen'];
+
+  function showScreen(id) {
+    screens.forEach(s => $(s).classList.remove('active'));
+    $(id).classList.add('active');
+  }
+
+  function showStatus(el, msg, ok) {
+    el.innerHTML = `<div class="status ${ok ? 'status-ok' : 'status-err'}">${esc(msg)}</div>`;
+  }
+
+  function clearStatus(el) { el.innerHTML = ''; }
+
+  function esc(s) {
+    const d = document.createElement('div');
+    d.textContent = s;
+    return d.innerHTML;
+  }
+
+  // ==================== CREDENTIAL STORAGE ====================
+
+  async function saveCredentials() {
+    const data = JSON.stringify(config);
+    const encrypted = await encryptStr(data, cryptoKey);
+    localStorage.setItem('editor_credentials', encrypted);
+  }
+
+  async function loadCredentials() {
+    const stored = localStorage.getItem('editor_credentials');
+    if (!stored) return false;
+    try {
+      const json = await decryptStr(stored, cryptoKey);
+      config = JSON.parse(json);
+      return true;
+    } catch {
+      return false;
+    }
+  }
+
+  // ==================== GITHUB API ====================
+
+  async function ghAPI(endpoint, opts = {}) {
+    const url = endpoint.startsWith('http')
+      ? endpoint
+      : `https://api.github.com/repos/${config.owner}/${config.repo}${endpoint}`;
+    const resp = await fetch(url, {
+      headers: {
+        'Authorization': `token ${config.pat}`,
+        'Accept': 'application/vnd.github.v3+json',
+        ...(opts.headers || {})
+      },
+      method: opts.method || 'GET',
+      body: opts.body ? JSON.stringify(opts.body) : undefined
+    });
+    if (!resp.ok) {
+      const err = await resp.json().catch(() => ({}));
+      throw new Error(err.message || `HTTP ${resp.status}`);
+    }
+    if (resp.status === 204) return null;
+    return resp.json();
+  }
+
+  async function testConnection() {
+    const repo = await ghAPI('');
+    return repo;
+  }
+
+  async function fetchBranches() {
+    return ghAPI('/branches?per_page=100');
+  }
+
+  async function fetchContents(path, branch) {
+    const p = path ? `/${path}` : '';
+    return ghAPI(`/contents${p}?ref=${encodeURIComponent(branch)}`);
+  }
+
+  async function fetchFileContent(path, branch) {
+    const data = await ghAPI(`/contents/${path}?ref=${encodeURIComponent(branch)}`);
+    const content = atob(data.content.replace(/\n/g, ''));
+    return { path: data.path, sha: data.sha, content };
+  }
+
+  async function commitFile(path, content, message, sha, branch) {
+    const body = {
+      message,
+      content: btoa(unescape(encodeURIComponent(content))),
+      branch
+    };
+    if (sha) body.sha = sha;
+    return ghAPI(`/contents/${path}`, { method: 'PUT', body });
+  }
+
+  async function deleteFile(path, message, sha, branch) {
+    return ghAPI(`/contents/${path}`, {
+      method: 'DELETE',
+      body: { message, sha, branch }
+    });
+  }
+
+  // ==================== TOKEN SCREEN ====================
+
+  $('token-input').addEventListener('keydown', async (e) => {
+    if (e.key !== 'Enter') return;
+    const token = $('token-input').value.trim();
+    if (!token) return;
+    appToken = token;
+    try {
+      cryptoKey = await deriveKey(token);
+    } catch {
+      return;
+    }
+    localStorage.setItem('editor_token', token);
+    $('token-input').value = '';
+    await initApp();
+  });
+
+  // ==================== SETTINGS SCREEN ====================
+
+  $('btn-save-settings').addEventListener('click', async () => {
+    config.pat = $('cfg-pat').value.trim();
+    config.owner = $('cfg-owner').value.trim();
+    config.repo = $('cfg-repo').value.trim();
+    config.branch = $('cfg-branch').value.trim() || 'main';
+
+    if (!config.pat || !config.owner || !config.repo) {
+      showStatus($('settings-status'), 'Please fill in all required fields.', false);
+      return;
+    }
+
+    try {
+      showStatus($('settings-status'), 'Testing connection...', true);
+      const repo = await testConnection();
+      config.branch = config.branch || repo.default_branch || 'main';
+      await saveCredentials();
+      showStatus($('settings-status'), `Connected to ${repo.full_name}`, true);
+      setTimeout(() => showBrowser(), 500);
+    } catch (err) {
+      showStatus($('settings-status'), `Connection failed: ${err.message}`, false);
+    }
+  });
+
+  $('btn-test-connection').addEventListener('click', async () => {
+    config.pat = $('cfg-pat').value.trim();
+    config.owner = $('cfg-owner').value.trim();
+    config.repo = $('cfg-repo').value.trim();
+    try {
+      clearStatus($('settings-status'));
+      const repo = await testConnection();
+      showStatus($('settings-status'), `OK — ${repo.full_name} (${repo.default_branch})`, true);
+    } catch (err) {
+      showStatus($('settings-status'), `Failed: ${err.message}`, false);
+    }
+  });
+
+  function setupLogout() {
+    const doLogout = () => {
+      localStorage.removeItem('editor_token');
+      localStorage.removeItem('editor_credentials');
+      appToken = null;
+      cryptoKey = null;
+      config = { pat: '', owner: '', repo: '', branch: 'main' };
+      showScreen('token-screen');
+    };
+    $('btn-logout').addEventListener('click', doLogout);
+    $('btn-logout2').addEventListener('click', doLogout);
+  }
+  setupLogout();
+
+  $('btn-settings').addEventListener('click', () => {
+    $('cfg-pat').value = config.pat;
+    $('cfg-owner').value = config.owner;
+    $('cfg-repo').value = config.repo;
+    $('cfg-branch').value = config.branch;
+    clearStatus($('settings-status'));
+    showScreen('settings-screen');
+  });
+
+  // ==================== FILE BROWSER ====================
+
+  async function showBrowser() {
+    showScreen('browser-screen');
+    $('tb-repo').textContent = `${config.owner}/${config.repo}`;
+    await loadBranches();
+    await loadFiles();
+  }
+
+  async function loadBranches() {
+    try {
+      const branches = await fetchBranches();
+      const sel = $('tb-branch');
+      sel.innerHTML = '';
+      branches.forEach(b => {
+        const opt = document.createElement('option');
+        opt.value = b.name;
+        opt.textContent = b.name;
+        if (b.name === config.branch) opt.selected = true;
+        sel.appendChild(opt);
+      });
+    } catch { /* ignore */ }
+  }
+
+  $('tb-branch').addEventListener('change', () => {
+    config.branch = $('tb-branch').value;
+    saveCredentials();
+    currentPath = '';
+    loadFiles();
+  });
+
+  function renderBreadcrumb() {
+    const bc = $('breadcrumb');
+    bc.innerHTML = '';
+    const root = document.createElement('a');
+    root.textContent = config.repo;
+    root.addEventListener('click', () => { currentPath = ''; loadFiles(); });
+    bc.appendChild(root);
+
+    if (currentPath) {
+      const parts = currentPath.split('/');
+      parts.forEach((part, i) => {
+        const sep = document.createElement('span');
+        sep.className = 'sep';
+        sep.textContent = ' / ';
+        bc.appendChild(sep);
+
+        const a = document.createElement('a');
+        a.textContent = part;
+        const path = parts.slice(0, i + 1).join('/');
+        a.addEventListener('click', () => { currentPath = path; loadFiles(); });
+        bc.appendChild(a);
+      });
+    }
+  }
+
+  async function loadFiles() {
+    renderBreadcrumb();
+    const list = $('file-list');
+    list.innerHTML = '<div class="empty-msg"><span class="spinner"></span> Loading...</div>';
+
+    try {
+      const contents = await fetchContents(currentPath, config.branch);
+      const items = Array.isArray(contents) ? contents : [contents];
+
+      // Filter: show dirs and .md files only
+      const filtered = items.filter(f =>
+        f.type === 'dir' || (f.type === 'file' && f.name.endsWith('.md'))
+      );
+
+      // Sort: dirs first, then files alphabetically
+      filtered.sort((a, b) => {
+        if (a.type === 'dir' && b.type !== 'dir') return -1;
+        if (a.type !== 'dir' && b.type === 'dir') return 1;
+        return a.name.localeCompare(b.name);
+      });
+
+      list.innerHTML = '';
+      if (filtered.length === 0) {
+        list.innerHTML = '<div class="empty-msg">No markdown files here.</div>';
+        return;
+      }
+
+      filtered.forEach(f => {
+        const item = document.createElement('div');
+        item.className = `file-item ${f.type === 'dir' ? 'dir' : 'file'}`;
+
+        const icon = document.createElement('span');
+        icon.className = 'file-icon';
+        icon.textContent = f.type === 'dir' ? '\uD83D\uDCC1' : '\uD83D\uDCC4';
+
+        const name = document.createElement('span');
+        name.className = 'file-name';
+        name.textContent = f.name;
+
+        item.appendChild(icon);
+        item.appendChild(name);
+
+        item.addEventListener('click', () => {
+          if (f.type === 'dir') {
+            currentPath = f.path;
+            loadFiles();
+          } else {
+            openFile(f.path);
+          }
+        });
+
+        list.appendChild(item);
+      });
+    } catch (err) {
+      list.innerHTML = `<div class="empty-msg">Error: ${esc(err.message)}</div>`;
+    }
+  }
+
+  // ==================== NEW FILE ====================
+
+  $('btn-new-file').addEventListener('click', () => {
+    $('new-file-path').value = currentPath ? currentPath + '/' : '';
+    $('new-file-content').value = '';
+    clearStatus($('new-file-status'));
+    $('new-file-modal').classList.add('active');
+  });
+
+  $('btn-cancel-new-file').addEventListener('click', () => {
+    $('new-file-modal').classList.remove('active');
+  });
+
+  $('btn-create-file').addEventListener('click', async () => {
+    const path = $('new-file-path').value.trim();
+    const content = $('new-file-content').value;
+
+    if (!path || !path.endsWith('.md')) {
+      showStatus($('new-file-status'), 'Path must end with .md', false);
+      return;
+    }
+
+    try {
+      showStatus($('new-file-status'), 'Creating...', true);
+      await commitFile(path, content, `Create ${path}`, null, config.branch);
+      $('new-file-modal').classList.remove('active');
+      await openFile(path);
+    } catch (err) {
+      showStatus($('new-file-status'), `Error: ${err.message}`, false);
+    }
+  });
+
+  // ==================== EDITOR ====================
+
+  async function openFile(path) {
+    showScreen('editor-screen');
+    $('tb-repo2').textContent = `${config.owner}/${config.repo}`;
+    $('tb-branch2').textContent = config.branch;
+    $('editor-filename').textContent = path;
+
+    // Destroy previous EasyMDE if exists
+    if (easyMDE) {
+      easyMDE.toTextArea();
+      easyMDE = null;
+    }
+
+    $('md-editor').value = 'Loading...';
+
+    try {
+      currentFile = await fetchFileContent(path, config.branch);
+      $('md-editor').value = '';
+
+      easyMDE = new EasyMDE({
+        element: $('md-editor'),
+        initialValue: currentFile.content,
+        spellChecker: false,
+        autofocus: true,
+        status: ['lines', 'words', 'cursor'],
+        sideBySideFullscreen: false,
+        renderingConfig: {
+          singleLineBreaks: false
+        }
+      });
+    } catch (err) {
+      $('md-editor').value = `Error loading file: ${err.message}`;
+    }
+  }
+
+  $('btn-back-browser').addEventListener('click', () => {
+    if (easyMDE) {
+      easyMDE.toTextArea();
+      easyMDE = null;
+    }
+    currentFile = null;
+    showBrowser();
+  });
+
+  // ==================== COMMIT WORKFLOW ====================
+
+  $('btn-commit').addEventListener('click', () => {
+    if (!easyMDE || !currentFile) return;
+
+    const newContent = easyMDE.value();
+    const oldContent = currentFile.content;
+
+    // Generate simple diff
+    $('diff-view').innerHTML = generateDiff(oldContent, newContent);
+
+    $('commit-msg').value = '';
+    $('commit-desc').value = '';
+    clearStatus($('commit-status'));
+    $('commit-modal').classList.add('active');
+    $('commit-msg').focus();
+  });
+
+  $('btn-cancel-commit').addEventListener('click', () => {
+    $('commit-modal').classList.remove('active');
+  });
+
+  $('btn-do-commit').addEventListener('click', async () => {
+    const msg = $('commit-msg').value.trim();
+    const desc = $('commit-desc').value.trim();
+    if (!msg) {
+      showStatus($('commit-status'), 'Commit message is required.', false);
+      return;
+    }
+
+    const fullMsg = desc ? `${msg}\n\n${desc}` : msg;
+    const newContent = easyMDE.value();
+
+    try {
+      showStatus($('commit-status'), 'Committing...', true);
+      const result = await commitFile(
+        currentFile.path, newContent, fullMsg, currentFile.sha, config.branch
+      );
+      currentFile.sha = result.content.sha;
+      currentFile.content = newContent;
+      showStatus($('commit-status'), 'Committed successfully!', true);
+      setTimeout(() => $('commit-modal').classList.remove('active'), 1000);
+    } catch (err) {
+      showStatus($('commit-status'), `Commit failed: ${err.message}`, false);
+    }
+  });
+
+  function generateDiff(oldText, newText) {
+    const oldLines = oldText.split('\n');
+    const newLines = newText.split('\n');
+    let html = '';
+
+    // Simple line-by-line diff using LCS-like approach
+    const max = Math.max(oldLines.length, newLines.length);
+    const oldSet = new Set();
+    const newSet = new Set();
+
+    // Find common lines (simple approach)
+    let oi = 0, ni = 0;
+    const output = [];
+
+    while (oi < oldLines.length || ni < newLines.length) {
+      if (oi < oldLines.length && ni < newLines.length && oldLines[oi] === newLines[ni]) {
+        output.push({ type: ' ', text: oldLines[oi] });
+        oi++; ni++;
+      } else {
+        // Look ahead for match
+        let foundOld = -1, foundNew = -1;
+        for (let k = 1; k <= 5; k++) {
+          if (foundNew === -1 && ni + k < newLines.length && oldLines[oi] === newLines[ni + k]) foundNew = k;
+          if (foundOld === -1 && oi + k < oldLines.length && oldLines[oi + k] === newLines[ni]) foundOld = k;
+        }
+
+        if (foundOld !== -1 && (foundNew === -1 || foundOld <= foundNew)) {
+          for (let k = 0; k < foundOld; k++) {
+            output.push({ type: '-', text: oldLines[oi++] });
+          }
+        } else if (foundNew !== -1) {
+          for (let k = 0; k < foundNew; k++) {
+            output.push({ type: '+', text: newLines[ni++] });
+          }
+        } else {
+          if (oi < oldLines.length) output.push({ type: '-', text: oldLines[oi++] });
+          if (ni < newLines.length) output.push({ type: '+', text: newLines[ni++] });
+        }
+      }
+    }
+
+    return output.map(l => {
+      const cls = l.type === '+' ? 'diff-add' : l.type === '-' ? 'diff-del' : '';
+      return `<div class="${cls}">${l.type} ${esc(l.text)}</div>`;
+    }).join('');
+  }
+
+  // ==================== APP INIT ====================
+
+  async function initApp() {
+    const hasCreds = await loadCredentials();
+    if (hasCreds && config.pat && config.owner && config.repo) {
+      try {
+        await testConnection();
+        showBrowser();
+      } catch {
+        populateSettings();
+        showScreen('settings-screen');
+      }
+    } else {
+      populateSettings();
+      showScreen('settings-screen');
+    }
+  }
+
+  function populateSettings() {
+    $('cfg-pat').value = config.pat;
+    $('cfg-owner').value = config.owner;
+    $('cfg-repo').value = config.repo;
+    $('cfg-branch').value = config.branch;
+    clearStatus($('settings-status'));
+  }
+
+  // ==================== BOOTSTRAP ====================
+
+  (async function bootstrap() {
+    const storedToken = localStorage.getItem('editor_token');
+    if (storedToken) {
+      appToken = storedToken;
+      try {
+        cryptoKey = await deriveKey(storedToken);
+        await initApp();
+      } catch {
+        showScreen('token-screen');
+      }
+    }
+  })();
+
+})();
+</script>
+</body>
+</html>
