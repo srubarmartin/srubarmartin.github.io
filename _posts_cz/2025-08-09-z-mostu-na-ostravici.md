@@ -7,7 +7,7 @@ lang: cz
 date: 2025-08-09
 ---
 
-Stále dočasně bez dětí a bez manželky, další příležitost k středně náročnému dobrodružství. Tentokrát mě to táhlo k trasám končícím v Ostravici — vidina toho skvělého burgeru a langoše se ukázala býti neodolatelnou motivací. Do Garminu jsem nakreslil několik variant a nakonec zvolil přechod z Mostů u Jablunkova na Ostravici, propojující dvě různé železniční tratě přes hřeben Beskyd.
+Stále dočasně bez dětí a bez manželky, další příležitost k středně náročnému dobrodružství. Tentokrát mě to táhlo k trasám končícím v Ostravici — vidina toho skvělého burgeru a langoše se ukázala být neodolatelnou motivací. Do Garminu jsem nakreslil několik variant a nakonec zvolil přechod z Mostů u Jablunkova na Ostravici, propojující dvě různé železniční tratě přes hřeben Beskyd.
 
 ## Ranní odjezd
 
