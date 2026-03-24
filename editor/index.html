@@ -912,7 +912,9 @@
         sideBySideFullscreen: false,
         renderingConfig: {
           singleLineBreaks: false
-        }
+        },
+        inputStyle: 'contenteditable',
+        nativeSpellcheck: true
       });
     } catch (err) {
       $('md-editor').value = `Error loading file: ${err.message}`;
