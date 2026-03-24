@@ -5,7 +5,7 @@ description: "Because my wife was attending a conference in the city, the boys a
 image: blog/Images/Chargrilling-Portuguese-man-looking-over-the-sea.jpeg
 ---
 
-Because my wife was attending a conference in the city, the boys and I were left to our own devices for most of the week. Our days usually began at a hotel breakfast buffet in one of the outer suburbs of Lisbon.
+"Buffet, buffet!" was the mantra of the morning as soon as the boys woke oup. Our days usually began with a hotel breakfast in one of the outer suburbs of Lisbon.
 
 Among the usual spread and all sorts of interesting Mediterranean-like items, two sat unconspicuously in the middle of the cold cuts and cheese section, undescribed. One was white and wobbly like silken tofu. The other remotely resembled quince cheese. Both were presented in massive, generous slabs. There were descriptions for baked beans, bacon, sautéed vegetables — but not these two. The quince thing turned out to be exactly that: a solid paste of quince, cut like a soft cheese. The tofu-like thing was *queijo fresco* — very mild, good with olive oil and salt or with the quince.
 
@@ -79,7 +79,7 @@ So we ordered a meal and went to the supermarket to wait.
 
 It was a small neighbourhood shop. We needed a few things for the room, and I wanted a bottle of olive oil to take back. I found one on the shelf — Portuguese extra virgin, seven euros. A mid-range bottle in a country that grows some of the best olives in the world.
 
-It had a theft-protection device clamped around its neck. The kind you see on bottles of spirits — a hard plastic collar that triggers an alarm if you walk out without having it removed at the register. I'd seen them on whisky. Never on olive oil.
+It had a theft-protection device clamped around its neck. The kind you see on bottles of spirits — a hard plastic collar that triggers an alarm if you walk out without having it removed at the register. I'd seen them on whisky. Never on olive oil. Olive oil and 7 euros carry more weight here.
 
 We paid. The woman at the register removed the device without comment, the way she must have done fifty times that day.
 
@@ -99,14 +99,14 @@ The food was Mediterranean — the olive oil, the grilled fish, the wine. The li
 
 The connections with South America were everywhere: direct flights to São Paulo, South American plants in the gardens, the Portuguese language binding two continents together. And pineapples — everywhere, all year round. They came from greenhouses in the Azores, where they'd been grown since the nineteenth century after a fungus killed the islands' orange crop and someone thought to try cultivating the ornamental pineapple commercially instead. It takes two years to grow one. Nobody in Lisbon thought twice about them.
 
-Not the monuments or the bridges or the famous custard tarts — which were everywhere too, in varying quality, not a destination pastry but something you grabbed with your coffee — it was the way the country wore its history so lightly that struck me most. The seafood was not a luxury; it was Tuesday lunch. The cork that padded the metro seats was not a premium material; it was what you sat on during your commute. The charcoal chicken was not artisanal; it was just the corner shop. A country that once sent ships to every corner of the world, and now the everywhere sent things back — plants from South America, design from North America, tourists from all of Europe — and Portugal received it all with a grace I hadn't expected. In a week of wandering with two children through neighbourhood supermarkets, local grill joints, the metro, the ferry, nobody had made us feel unwelcome.
+Not the monuments or the bridges — it was the way the country appreciated its history and yet wore it lightly that struck me. The famous custard tarts were everywhere too, always good, sometimes great; not a destination pastry but something you grabbed with your coffee. The fresh, well-cooked seafood was not a luxury; it was Tuesday lunch. The cork that padded the metro seats was not a premium material; it was what you sat on during your commute. The charcoal chicken was not artisanal; it was just the corner shop. A country that once sent ships to every corner of the world, and now the everywhere sent things back — plants from South America, bridge design from North America, tourists from all of Europe — and Portugal received it all with a grace I hadn't expected. In a week of wandering with two children through neighbourhood supermarkets, local grill joints, the metro, the ferry, nobody had made us feel unwelcome.
 
-Portugal doesn't resolve into a single thing you can name. It's the in-between empire — the country that touched everywhere and now sits at the edge of Europe, facing the ocean, wearing its history like old clothes. A little frayed at the edges, but still perfectly good.
+Portugal doesn't resolve into a single thing you can name. It has its problems. It expects quality but doesn't narrate it. It's the in-between empire — the country that touched everywhere and now sits at the edge of Europe, facing the ocean, reaching towards the Azores, Madeira and South America and at the same time looking forward towards Europe.
 
 I thought about my son in the supermarket, turning the olive oil bottle over, examining the plastic anti-theft device with the seriousness that five-year-olds bring to things they haven't seen before.
 
 *Dad, what is this?*
 
-I told him. He thought about this for a moment, nodded, put the bottle in the basket, and moved on.
+I told him. He thought about this, nodded, put the bottle in the basket, taking it as it was, without a fanfare or a complaint.
 
 Looking back, that quiet acceptance might have been the most Portuguese thing any of us did all week.
