@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Dad, What Is This? One Day in Lisbon"
-description: "Because my wife was attending a conference in the city, the boys and I were left to our own devices for most of the week."
+title: "What Is This? One Day in Lisbon"
+description: "The boys and I were left to our own devices for most of the week in the capital of Portugal."
 image: blog/Images/Chargrilling-Portuguese-man-looking-over-the-sea.jpeg
 ---
 
-"Buffet, buffet!" was the mantra of the morning as soon as the boys woke oup. Our days usually began with a hotel breakfast in one of the outer suburbs of Lisbon.
+"Buffet, buffet!" was the mantra of the morning as soon as the boys woke up. Our days usually began with a hotel breakfast in one of the outer suburbs of Lisbon.
 
 Among the usual spread and all sorts of interesting Mediterranean-like items, two sat unconspicuously in the middle of the cold cuts and cheese section, undescribed. One was white and wobbly like silken tofu. The other remotely resembled quince cheese. Both were presented in massive, generous slabs. There were descriptions for baked beans, bacon, sautéed vegetables — but not these two. The quince thing turned out to be exactly that: a solid paste of quince, cut like a soft cheese. The tofu-like thing was *queijo fresco* — very mild, good with olive oil and salt or with the quince.
 
@@ -79,7 +79,7 @@ So we ordered a meal and went to the supermarket to wait.
 
 It was a small neighbourhood shop. We needed a few things for the room, and I wanted a bottle of olive oil to take back. I found one on the shelf — Portuguese extra virgin, seven euros. A mid-range bottle in a country that grows some of the best olives in the world.
 
-It had a theft-protection device clamped around its neck. The kind you see on bottles of spirits — a hard plastic collar that triggers an alarm if you walk out without having it removed at the register. I'd seen them on whisky. Never on olive oil. Olive oil and 7 euros carry more weight here.
+It had a theft-protection device clamped around its neck. The kind you see on bottles of spirits — a hard plastic collar that triggers an alarm if you walk out without having it removed at the register. I'd seen them on whisky. Never on olive oil.
 
 We paid. The woman at the register removed the device without comment, the way she must have done fifty times that day.
 
@@ -105,8 +105,8 @@ Portugal doesn't resolve into a single thing you can name. It has its problems. 
 
 I thought about my son in the supermarket, turning the olive oil bottle over, examining the plastic anti-theft device with the seriousness that five-year-olds bring to things they haven't seen before.
 
-*Dad, what is this?*
+*Tata, what is this?*
 
-I told him. He thought about this, nodded, put the bottle in the basket, taking it as it was, without a fanfare or a complaint.
+I told him. He thought about this, nodded, put the bottle in the basket, taking it as it was, without fanfare or complaint.
 
 Looking back, that quiet acceptance might have been the most Portuguese thing any of us did all week.
