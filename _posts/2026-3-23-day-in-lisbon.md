@@ -5,7 +5,7 @@ description: "The boys and I were left to our own devices for most of the week i
 image: blog/Images/Chargrilling-Portuguese-man-looking-over-the-sea.jpeg
 ---
 
-"Buffet, buffet!" was the mantra of the morning as soon as the boys woke up. Our days usually began with a hotel breakfast in one of the outer suburbs of Lisbon.
+"Buffet, buffet!" was the mantra of the morning as soon as the boys woke up. Our days always began with a hotel breakfast in one of the outer suburbs of Lisbon.
 
 Among the usual spread and all sorts of interesting Mediterranean-like items, two sat unconspicuously in the middle of the cold cuts and cheese section, undescribed. One was white and wobbly like silken tofu. The other remotely resembled quince cheese. Both were presented in massive, generous slabs. There were descriptions for baked beans, bacon, sautéed vegetables — but not these two. The quince thing turned out to be exactly that: a solid paste of quince, cut like a soft cheese. The tofu-like thing was *queijo fresco* — very mild, good with olive oil and salt or with the quince.
 
