@@ -9,7 +9,7 @@ image: blog/Images/Chargrilling-Portuguese-man-looking-over-the-sea.jpeg
 
 Among the usual spread and all sorts of interesting Mediterranean-like items, two sat unconspicuously in the middle of the cold cuts and cheese section, undescribed. One was white and wobbly like silken tofu. The other remotely resembled quince cheese. Both were presented in massive, generous slabs. There were descriptions for baked beans, bacon, sautéed vegetables — but not these two. The quince thing turned out to be exactly that: a solid paste of quince, cut like a soft cheese. The tofu-like thing was *queijo fresco* — very mild, good with olive oil and salt or with the quince.
 
-In another country, this might have come with some fanfare — an "artisanal" label, perhaps a rustic wooden board. Here it was just a non-descript buffet item, sitting between the ham and the bread. This was something I'd been noticing in Lisbon: quality stands on its own. It doesn't need narration.
+In another country, this might have come with some fanfare — an "artisanal" label, perhaps a rustic wooden board. Here it was just a non-descript buffet item, sitting between the ham and sliced cheese. This was something I'd been noticing in Lisbon: quality stands on its own. It doesn't need narration.
 
 
 ## The Pond
