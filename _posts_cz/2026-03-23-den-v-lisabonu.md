@@ -42,7 +42,7 @@ Opačným směrem, mnohem delší a mnohem nižší, běžel těsně nad vodou d
 
 Na jižním břehu se nad hladinou tyčila socha Cristo Rei s rozpjatýma rukama, tváří k městu. Vypadalo to jako Rio de Janeiro. Pořád jsem přemýšlel o jiných místech, abych popsal tohle. Portugalsko není snadné srovnat, protože se dotklo příliš mnoha míst, a teď se ozvěny vracely odevšud.
 
-Kluci z trajektu zahlédli stěžně „pirátské lodi”. Takže plánem de stalo — vyrazíme tamtím směrem.
+Kluci z trajektu zahlédli stěžně „pirátské lodi”. Takže plánem se stalo: vyrazíme tamtím směrem.
 
 ## Pirátská loď
 
