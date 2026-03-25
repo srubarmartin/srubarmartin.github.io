@@ -101,7 +101,7 @@ Portugalsko se nedá shrnout do jediného pojmu. Má své problémy. Očekává 
 
 Vzpomněl jsem si na syna v supermarketu, jak otáčí lahev olivového oleje a s vážností, jakou pětiletí věnují věcem, které dosud neviděli, zkoumá plastové protikrádežové zařízení.
 
-*Tati, co je tohle?*
+*Tati, co je to?*
 
 Vysvětlil jsem mu to. Zamyslel se, přikývl, dal lahev do košíku — vzal to tak, jak to bylo, bez okázalosti a bez stížností.
 
