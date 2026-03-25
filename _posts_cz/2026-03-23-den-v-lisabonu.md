@@ -1,7 +1,7 @@
 ---
 layout: post
-title: “Co je to? Jeden den v Lisabonu”
-description: “Kluci a já jsme skoro celý týden v hlavním městě Portugalska zůstali sami sobě napospas.”
+title: "Co je to? Jeden den v Lisabonu"
+description: "Kluci a já jsme skoro celý týden v hlavním městě Portugalska zůstali sami sobě napospas."
 image: blog/Images/Chargrilling-Portuguese-man-looking-over-the-sea.jpeg
 lang: cz
 ---
