@@ -66,7 +66,7 @@ Myslel jsem na dvě věci. První byla, že tohle jsou mimořádné stroje — f
 
 Kluci viděli dobrodružství. Já viděl zemi, která vystavuje svou minulost.
 
-## Obchod na rohu
+## Grilované kuře
 
 K večeru jsme byli zpátky ve čtvrti u hotelu. Kluci měli hlad.
 
