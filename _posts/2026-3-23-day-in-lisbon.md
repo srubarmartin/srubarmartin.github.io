@@ -14,7 +14,7 @@ In another country, this might have come with some fanfare — an "artisanal" la
 
 ## The Pond
 
-The Navy building near the waterfront was painted light blue, almost baby blue. Still the Ministry of Defence — not a museum, not a monument, but a working building for what remains of a navy that once commanded half the world's sea routes. The boys walked past it without looking.
+The Navy building near the waterfront was painted light blue, almost baby blue. Still the Ministry of Defence — not a museum, not a monument, but a working building for what remains of a navy that once commanded half the world's sea routes. The boys walked past it.
 
 What they noticed was the pond.
 
@@ -69,7 +69,7 @@ I tried to hold two thoughts at the same time. The first was that these were ext
 The boys saw adventure. I saw a country visiting its past.
 
 
-## The Corner Shop
+## The Grill House
 
 By evening, we were back in the neighbourhood. The boys were hungry.
 
