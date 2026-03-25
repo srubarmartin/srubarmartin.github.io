@@ -105,4 +105,4 @@ Vzpomněl jsem si na syna v supermarketu, jak otáčí lahev olivového oleje a 
 
 Vysvětlil jsem mu to. Zamyslel se, přikývl, dal lahev do košíku — vzal to tak, jak to bylo, bez okázalosti a bez stížností.
 
-Tohle tiché zamyšlení a přijetí bylo možná to nejportugalštější, co kdokoliv z nás za celý týden udělal.
+Právě tohle bylo to nejportugalštější, co kdokoliv z nás za celý týden udělal.
