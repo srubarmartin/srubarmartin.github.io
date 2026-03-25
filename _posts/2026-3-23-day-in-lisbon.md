@@ -109,4 +109,4 @@ I thought about my son in the supermarket, turning the olive oil bottle over, ex
 
 I told him. He thought about this, nodded, put the bottle in the basket, taking it as it was, without fanfare or complaint.
 
-Looking back, that quiet acceptance might have been the most Portuguese thing any of us did all week.
+Just that may have been the most Portuguese thing any of us did all week.
