@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Is This? One Day in Lisbon"
-description: "The boys and I were left to our own devices for most of the week in the capital of Portugal."
+description: "The boys and I were left to our own devices in the capital of Portugal."
 image: blog/Images/Chargrilling-Portuguese-man-looking-over-the-sea.jpeg
 ---
 
