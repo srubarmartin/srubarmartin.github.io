@@ -8,7 +8,7 @@
     {% include blog-header.html %}
 
     <main class="site-column">
-        <article>
+        <article class="post-content">
             <h2>{{ page.title }}</h2>
             {% if page.date %}
             <p class="text-muted">
@@ -19,7 +19,7 @@
               {% endif %}
             </p>
             {% endif %}
-            {% if page.image %}<img src="{{ site.baseurl }}/{{ page.image }}" alt="" class="img-fluid mb-3" />{% endif %}
+            {% if page.image %}<img src="{{ site.baseurl }}/{{ page.image }}" alt="" class="img-fluid" />{% endif %}
             {{ content }}
         </article>
     </main>

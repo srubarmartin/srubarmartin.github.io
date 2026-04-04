@@ -1,14 +1,15 @@
-<footer class="py-4" style="border-top: 1px solid #333; margin-top: 2em;">
-	<div class="site-column text-center text-muted">
-		<p>
-			<a href="{{ "/" | relative_url }}">Home</a> |
+<footer class="site-footer">
+	<div class="site-column text-center">
+		<p class="footer-nav">
+			<a href="{{ "/" | relative_url }}">Home</a>
+			<span class="separator">&middot;</span>
 			{% if page.lang == "cz" %}
 				<a href="{{ "/blog/cz/" | relative_url }}">Blog</a>
 			{% else %}
-				<a href="{{ "/blog/" | relative_url }}">Blog home</a>
+				<a href="{{ "/blog/" | relative_url }}">Blog</a>
 			{% endif %}
 		</p>
-		<p>&copy; {{ site.title }}</p>
+		<p class="footer-copy">&copy; {{ site.title }}</p>
 	</div>
 </footer>
 
