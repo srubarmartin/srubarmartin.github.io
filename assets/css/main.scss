@@ -160,7 +160,23 @@ article {
   }
 
   img {
-    margin: 0.5em 0 1em;
+    margin: 0.5em 0 0.25em;
+  }
+
+  // Tighten image captions (italic text after images)
+  p img {
+    margin-bottom: 0;
+  }
+
+  p:has(img) {
+    margin-bottom: 0.2em;
+  }
+
+  p:has(img) + p {
+    margin-top: 0;
+    margin-bottom: 1.8em;
+    font-size: 0.85em;
+    color: #999;
   }
 
   hr {
