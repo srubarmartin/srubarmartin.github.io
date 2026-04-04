@@ -86,7 +86,7 @@ main.site-column {
 
     p.text-muted {
       margin-top: 0;
-      margin-bottom: 0.5em;
+      margin-bottom: 0.25em !important;
       font-size: 0.85em;
       color: #999 !important;
     }
@@ -94,6 +94,11 @@ main.site-column {
     p:last-of-type {
       margin-top: 0;
       margin-bottom: 0.5em;
+    }
+
+    .img-fluid {
+      margin-top: 0.25em !important;
+      margin-bottom: 1em !important;
     }
   }
 }
@@ -219,11 +224,12 @@ header.border-bottom {
     margin-bottom: 0.15em;
   }
 
-  .text-muted {
-    margin-bottom: 0.5em;
+  > .text-muted {
+    margin-bottom: 0.25em !important;
   }
 
-  .img-fluid {
+  > .img-fluid {
+    margin-top: 0.25em;
     margin-bottom: 1.5em;
   }
 }
