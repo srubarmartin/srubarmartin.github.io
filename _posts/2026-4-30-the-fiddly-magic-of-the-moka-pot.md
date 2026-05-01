@@ -71,7 +71,7 @@ In practice, what I do is part hedge, part laziness. Most of the time I just rin
 
 The moka pot is not a capsule machine. You do not push a button and receive an identical, engineered product every single time. It is a tactile, analogue piece of 1930s engineering.
 
-Because it relies on the exact grind of the bean, the heat of the stove, and your own timing to catch it before it sputters, it is inherently inconsistent. Sometimes you get the perfect, nostalgic cup that pairs flawlessly with Spanish bread and garlic. Sometimes you get a cup that makes an eleven-year-old say *"fuj!"*
+Because it relies on the exact grind of the bean, the heat of the stove, and your own timing to catch it before it sputters, it is inherently inconsistent. Sometimes you get the perfect, nostalgic cup that pairs flawlessly with Spanish bread, tomato, and garlic. Sometimes you get a cup that makes an eleven-year-old say *"fuj!"*
 
 But that inconsistency is the charm. It asks you to pay attention. It asks you to learn its quirks, to ignore the internet when necessary, and to figure out what works in your own kitchen. It brings a piece of that Naples supermarket, that morning in Estonia, and those breakfasts in the Spanish countryside onto my stove every time I use it.
 
