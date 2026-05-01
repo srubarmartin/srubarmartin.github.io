@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Fiddly Magic of the Moka Pot"
-description: "From a student morning in Estonia to a tired afternoon in Naples to my own kitchen — what a 1933 Italian invention taught me about coffee, history, and ignoring the internet."
+description: "From Estonia 20 years ago to a tired morning in Naples last year to my own kitchen today — what a 1933 Italian invention taught me about coffee, history, and ignoring the internet."
 image: blog/Images/moka-pot-on-stove-with-mug-at-sunrise.jpg
 ---
 
