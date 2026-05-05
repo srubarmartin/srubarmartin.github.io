@@ -22,7 +22,7 @@ That was my introduction to the core truth of the moka pot: it is brilliant, and
 
 When we got back from Spain, I deliberated for a few weeks before finally buying my own. I bought a classic aluminium pot, sized for "three portions."
 
-In Northern Europe or the Anglosphere, we hear "three portions" and picture three mugs sitting on a breakfast table. But the moka pot was invented in 1933 in Italy, and it operates on 1933 Italian math. A "3-portion" moka pot produces about 100ml of coffee, just enough to fill a small mug. It made sense only when I remembered that tiny plastic cup in the Naples supermarket. The moka isn't designed to give you volume; it's designed to give you density.
+In Northern Europe or the Anglosphere, we hear "three portions" and picture three mugs sitting on a breakfast table. But the moka pot was invented in 1933 in Italy, and it operates on 1933 Italian coffee math. A "3-portion" moka pot produces about 100ml of coffee, just enough to fill a small mug. It made sense only when I remembered that tiny plastic cup in the Naples supermarket. The moka isn't designed to give you volume; it's designed to give you density.
 
 
 ## Frozen in 1933
