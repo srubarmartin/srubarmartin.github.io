@@ -34,15 +34,15 @@ Looking back, the requirements fall into three categories. The non-negotiables: 
 
 Some requirements aren't preferences. They're entry conditions.
 
-Dishwasher safe. This gets argued about — some people insist handwashing is part of the ritual of care for the things you like and value. I don't want to think about it. Any mug I use regularly needs to survive the dishwasher.
+**Dishwasher safe.** This gets argued about — some people insist handwashing is part of the ritual of care for the things you like and value. I don't want to think about it. Any mug I use regularly needs to survive the dishwasher.
 
-Microwave safe. Coffee gets cold. Tea gets cold. I'm not religious about reheating — once a drink has been sitting for twenty minutes, the taste has moved on anyway — but the option should exist. The kids like to warm up their milk sometimes.
+**Microwave safe.** Coffee gets cold. Tea gets cold. I'm not religious about reheating — once a drink has been sitting for twenty minutes, the taste has moved on anyway — but the option should exist. The kids like to warm up their milk sometimes.
 
-Sides that don't narrow toward the top. This sounds niche until you've tried to clean dried-out coffee or milk the dishwasher left behind because the water didn't reach it and your cloth can't quite reach it either. Vertical sides or a slight outward flare: both fine. Inward taper: eliminated.
+**Sides that don't narrow toward the top.** This sounds niche until you've tried to clean dried-out coffee or milk the dishwasher left behind because the water didn't reach it and your cloth can't quite reach it either. Vertical sides or a slight outward flare: both fine. Inward taper: eliminated.
 
-A stable base. Some mugs are top-heavy, or have foot rings so narrow that a slight nudge sends them over. With any liquid in them, this stops being an aesthetic concern.
+**A stable base.** Some mugs are top-heavy, or have foot rings so narrow that a slight nudge sends them over. With any liquid in them, this stops being an aesthetic concern.
 
-There is one final entry condition, though it comes with a catch: Durability. This is hard to assess at the point of purchase, because you can only really evaluate it after a decade or two. A mug that chips on its third outing, or whose glaze starts crazing within a year, is a failure — but there's no way to know this in the shop. Buying from a maker who appears to be a true craftsman, or accepting that you might eventually need to replace something you love, is about the best you can do.
+There is one final entry condition, though it comes with a catch: **Durability.** This is hard to assess at the point of purchase, because you can only know after a decade or two. A mug that chips on its third outing, or whose glaze starts crazing within a year, is a failure — but there's no way to know this in the shop. Buying from a maker who appears to be a true craftsman, or accepting that you might eventually need to replace something you love, is about the best you can do.
 
 ## One drink, one mug
 
