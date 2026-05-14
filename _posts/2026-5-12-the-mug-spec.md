@@ -61,11 +61,11 @@ A mug's aesthetics are personal, but personal doesn't mean arbitrary. It means y
 
 I prefer thin ceramic. Not for its own sake — thin walls are a marker of skilled throwing, and the mug feels lighter and more considered in the hand. A thick-walled mug has its place: there's a certain satisfaction to a heavy ceramic cup, especially for something like a big mug of milk in a rustic house in the countryside. But my default is the thinner kind. There's one more quality of thin, well-fired ceramic that's easy to overlook until you notice it: the sound. Stir a spoon in a well-made thin mug and it rings, almost like a bell. It's a small thing. But it's the kind of small thing that makes you aware, each time, that you're holding something well made.
 
-Texture on the outside: yes, but with a qualification. I want something to hold — a matte finish, or the subtle ridges left by the turning process under a smooth glaze. What I don't want is a texture so rough or porous that it traps residue and becomes difficult to clean. The distinction is finer than it sounds, and worth paying attention to in the shop.
+Texture on the outside: yes, but with a qualification. I want something to hold — a matte finish, or the subtle ridges left by the turning process under a smooth glaze. What I don't want is a texture so rough or porous that it traps residue and becomes difficult to clean. The distinction is finer than it sounds.
 
 Colour and pattern: muted, and unobtrusive. A mug's job is to complement the drinking experience, not compete with it. Strong patterns or bright colours don't ruin anything — they just introduce a visual element I'd rather not have. And no text. No sayings, no jokes, no brand names. The surface of a mug is not a communications medium.
 
-Handmade pieces have something that mass production doesn't, and it's not pretension. It's the slight variation, the evidence of a hand at work, the imperfections that are actually a kind of precision — proof that a specific person made this specific object. A maker's mark on the base, with a year, is the version of that I find most satisfying: an authorship note that doesn't interfere with the object itself.
+Handmade pieces have something that mass production doesn't, and it's not pretension. It's the slight variation, the evidence of a hand at work, the imperfections that are actually a kind of precision — proof that a specific person made this specific object. A maker's mark on the base, with a year is nice to have: an authorship note that doesn't interfere with the object itself.
 
 
 ## The using of it
