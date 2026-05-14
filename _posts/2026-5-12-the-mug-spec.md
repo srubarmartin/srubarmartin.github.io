@@ -16,7 +16,7 @@ Looking back, it's odd that I never gave it much thought, because the mug is arg
 
 ## The economics of small pleasures
 
-A good artisan mug costs somewhere between thirty and a hundred and fifty dollars, depending on where you find it and who made it. This sounds, at first, like an extravagance.
+A good artisan mug costs somewhere between thirty and fifty dollars, depending on where you find it and who made it. This sounds, at first, like an extravagance.
 
 Divide that cost by twice-daily use over twenty years and you get a number small enough to be embarrassing. The expensive mug is, by that measure, one of the cheapest things you own. Silly cost-per-use measures aside, the question isn't whether you can afford a good one. The question is whether the satisfaction of using a good one is worth something to you — and whether you've ever thought about it long enough to find out.
 
