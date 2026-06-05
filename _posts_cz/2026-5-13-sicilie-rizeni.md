@@ -12,7 +12,7 @@ Vzal jsem si to nové a okamžitě začal o tom rozhodnutí pochybovat. To otlu�
 
 A přesně tenhle detail se ukázal jako mnohem důležitější, než jsem čekal.
 
-Hned první večer jsem na silnici kdesi za Syrakusami vymetl výmol, kterého jsem si vůbec nevšiml. Ozvaly se dvě děsivé rány — jedna od každého levého kola — a moje žena na sedadle spolujezdce prohlásila, že ji z toho prudkého škubnutí bolí za krkem. Autu se nějakým zázrakem nestalo vůbec nic.
+Hned první večer jsem na silnici vymetl výmol, kterého jsem si vůbec nevšiml. Ozvaly se dvě děsivé rány — jedna od každého levého kola — a moje žena na sedadle spolujezdce prohlásila, že ji z toho prudkého škubnutí bolí za krkem. Autu se nějakým zázrakem nestalo vůbec nic.
 
 Tenhle výmol byl mou první lekcí z logiky sicilských silnic, která se dá shrnout zhruba takto: Na Sicílii se silnice neopravují. Místo toho se prostě sníží rychlostní limit.
 
