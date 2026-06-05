@@ -11,7 +11,7 @@ I took the new one and immediately wondered if I'd made a mistake. The beat-up c
 
 That distinction, it turned out, mattered more than I expected.
 
-On our first night, on a road somewhere outside Syracuse, I drove into a pothole I didn't see. The car shook hard. There were two distinct, sickening noises — one for each left wheel — and my wife, sitting on the opposite side, said the impact hurt her neck. The car was somehow fine.
+On our first nigh I drove into a pothole I didn't see. The car shook hard. There were two distinct, sickening noises — one for each left wheel — and my wife, sitting on the opposite side, said the impact hurt her neck. The car was somehow fine.
 
 That pothole was my introduction to the actual logic of Sicilian roads, which I'll summarize this way: Sicily doesn't fix its roads. It lowers the speed limit instead.
 
