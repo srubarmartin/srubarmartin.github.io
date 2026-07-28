@@ -21,7 +21,7 @@ Všimli si však rybníku.
 ![Budova portugalského námořnictva](/blog/Images/The-Portuguese-navy-building.jpeg)
 *<center>Budova portugalského námořnictva</center>*
 
-Byl vedle budovy námořnictva, hmed u moře, a nebyl v dobrém stavu. Hladinu pokrývaly zelené řasy. Na okrajích rostl rákos. Trsy trávy a rákosu se utrhly ode dna a plovaly v zeleni jako malé ostrůvky, které se bez cíle potácely sem a tam. Kluci se zastavili.
+Byl vedle budovy námořnictva, hned u moře, a nebyl v dobrém stavu. Hladinu pokrývaly zelené řasy. Na okrajích rostl rákos. Trsy trávy a rákosu se utrhly ode dna a plovaly v zeleni jako malé ostrůvky, které se bez cíle potácely sem a tam. Kluci se zastavili.
 
 Vítr poháněl travnaté ostrůvky přes rybník, pomalu, a tam, kde se pohnuly, zanechávaly v řasách tmavé stopy — čisté linie, které se za nimi otvíraly jako brázdy za lodí. Můj pětiletý syn stál na kraji a sledoval, jak jeden ostrůvek přeplul od rákosí na blízké straně skoro až k protějšímu břehu. Jeho bratr pozoroval jiný. Stáli tam deset minut, možná déle. Stál jsem s nimi.
 
@@ -76,11 +76,11 @@ Tak jsme si objednali jídlo a při čekání jsme zašli do supermarketu.
 
 Byl to malý obchod. Potřebovali jsme pár věcí a já chtěl láhev olivového oleje domů. Na regálu jsem jednu našel — portugalský extra panenský, sedm eur. Střední cenová kategorie v zemi, která pěstuje jedny z nejlepších oliv na světě.
 
-Na hrdle měla protikrádežové zařízení. Takové to, co vídáte na lahvích lihovin — tvrdý plastový límec, který spustí alarm, pokud hi vynesete ven. Viděl jsem to na whisky. Na olivovém oleji nikdy.
+Na hrdle měla protikrádežové zařízení. Takové to, co vídáte na lahvích lihovin — tvrdý plastový límec, který spustí alarm, pokud ho vynesete ven. Viděl jsem to na whisky. Na olivovém oleji nikdy.
 
 Zaplatili jsme. Žena u pokladny sundala zařízení beze slova, tak jako to musela dělat padesátkrát denně.
 
-A pak zpátky ke grilu. Kluci chtěli sledovat maso nad ohněm, a tak to dělali, stáli tak blízko, jak jen mohli. Syrové kuře bylo přkně žluté. Na cedulích žádné „z volného chovu” ani „krmené kukuřicí”. Tady prostě kuře. A to hotové kuře bylo vonělo kouřem, bylo křupavé a lehce připálené na povrchu a bylo to nejlepší kuře, jaké jsme v Lisabonu jedli. Sezení tam nebylo — vzali jsme to zpátky do hotelu. V Melbourne nebo v Londýně by o takovém podniku psala víkendová příloha novin. Tady to prostě byl obchod na rohu.
+A pak zpátky ke grilu. Kluci chtěli sledovat maso nad ohněm, a tak to dělali, stáli tak blízko, jak jen mohli. Syrové kuře bylo pěkně žluté. Na cedulích žádné „z volného chovu” ani „krmené kukuřicí”. Tady prostě kuře. A to hotové kuře bylo vonělo kouřem, bylo křupavé a lehce připálené na povrchu a bylo to nejlepší kuře, jaké jsme v Lisabonu jedli. Sezení tam nebylo — vzali jsme to zpátky do hotelu. V Melbourne nebo v Londýně by o takovém podniku psala víkendová příloha novin. Tady to prostě byl obchod na rohu.
 
 ![Grilované kuře, klobásy a žebra](/blog/Images/Chargrilling-chicken-sausages-and-ribs.jpeg)
 *<center>Grilované kuře, klobásy a žebra</center>*
